@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/share_back_weight" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:text="@string/share_weight" style="@style/ShareTitleTextView" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_value_top_margin">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/img_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/share_up" />
+            <TextView android:id="@+id/tv_change" android:text="0" style="@style/ShareValueTextView" />
+            <TextView android:layout_marginLeft="5dp" android:text="㎏" style="@style/ShareValueUnitTextView" />
+        </LinearLayout>
+        <TextView android:id="@+id/tv_date" android:text="2016.01.01" style="@style/ShareDateTextView" />
+    </LinearLayout>
+</FrameLayout>

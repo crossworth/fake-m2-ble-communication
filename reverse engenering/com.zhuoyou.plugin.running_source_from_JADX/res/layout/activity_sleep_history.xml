@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar android:background="@color/background_color_sleep" android:custom_back_title="@string/actionbar_title_sleep_history" style="@style/DefaultActionBar" />
+    <com.lemon.cx.micolumnar.MiColumnarSleepView android:id="@+id/sleep_view" android:background="@color/background_color_sleep" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0004" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp"
+        <LinearLayout style="@style/DataOneDayValueLayout">
+            <TextView android:text="@string/total_sleep_duration" style="@style/DataOneDayTitleText" />
+            <TextView android:id="@+id/tv_total_sleep_time" android:text="0:00" style="@style/DataOneDayValueText" />
+        </LinearLayout>
+        <View style="@style/DataViewDividerView" />
+        <LinearLayout style="@style/DataOneDayValueLayout">
+            <TextView android:text="@string/total_deep_sleep_duration" style="@style/DataOneDayTitleText" />
+            <TextView android:id="@+id/tv_deep_sleep_time" android:text="0:00" style="@style/DataOneDayValueText" />
+        </LinearLayout>
+        <View style="@style/DataViewDividerView" />
+        <LinearLayout style="@style/DataOneDayValueLayout">
+            <TextView android:text="@string/total_light_sleep_duration" style="@style/DataOneDayTitleText" />
+            <TextView android:id="@+id/tv_light_sleep_time" android:text="0:00" style="@style/DataOneDayValueText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <Button android:id="@+id/btn_detail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="详情" android:onClick="onClick" />
+        <View style="@style/DividerView" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/btn_day" android:layout_width="UNKNOWN_DATA_0x1" android:text="@string/day_statistics" android:drawableTop="@drawable/ic_sleep_history_day" android:layout_weight="1.0" android:onClick="onClick" style="@style/BootomButtonWithDrawableTop" />
+            <TextView android:id="@+id/btn_week" android:layout_width="UNKNOWN_DATA_0x1" android:text="@string/week_statistics" android:drawableTop="@drawable/ic_sleep_history_week" android:layout_weight="1.0" android:onClick="onClick" style="@style/BootomButtonWithDrawableTop" />
+            <TextView android:id="@+id/btn_month" android:layout_width="UNKNOWN_DATA_0x1" android:text="@string/month_statistics" android:drawableTop="@drawable/ic_sleep_history_month" android:layout_weight="1.0" android:onClick="onClick" style="@style/BootomButtonWithDrawableTop" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

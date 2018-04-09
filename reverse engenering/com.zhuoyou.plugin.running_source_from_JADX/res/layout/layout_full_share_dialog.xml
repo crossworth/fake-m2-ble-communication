@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_share_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/actionbar_title_textsize" android:textColor="0x106000b" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/btn_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a0050" android:layout_marginLeft="6dp" android:layout_marginTop="@dimen/statusbar_height" android:text="@string/share_share" android:drawableLeft="@drawable/actionbar_backbutton_selector" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_bootom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x8c01" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14dp" android:textColor="0x106000b" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/share_share_to" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <ImageView android:id="@+id/share_facebook" android:src="@drawable/sh_facebook_selector" style="@style/ShareItemButton" />
+            <ImageView android:id="@+id/share_twitter" android:src="@drawable/sh_twitter_selector" style="@style/ShareItemButton" />
+            <ImageView android:id="@+id/share_instagram" android:src="@drawable/sh_instagram_selector" style="@style/ShareItemButton" />
+            <ImageView android:id="@+id/share_whatsapp" android:src="@drawable/sh_whatsapp_selector" style="@style/ShareItemButton" />
+            <ImageView android:id="@+id/share_qq" android:src="@drawable/sh_qq_selector" style="@style/ShareItemButton" />
+            <ImageView android:id="@+id/share_qzone" android:src="@drawable/sh_qzone_selector" style="@style/ShareItemButton" />
+            <ImageView android:id="@+id/share_wechat" android:src="@drawable/sh_wechat_selector" style="@style/ShareItemButton" />
+            <ImageView android:id="@+id/share_moments" android:src="@drawable/sh_moments_selector" style="@style/ShareItemButton" />
+            <ImageView android:id="@+id/share_weibo" android:src="@drawable/sh_weibo_selector" style="@style/ShareItemButton" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

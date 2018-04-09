@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#dfe5e7" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/running_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" layout="@layout/running_actionbar" />
+    <TextView android:textSize="15sp" android:textColor="@color/grey" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="@string/support_tv1" />
+    <TextView android:textSize="20sp" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:text="@string/support_tv2" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/setting_box" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp">
+            <TextView android:textSize="15sp" android:textColor="@color/grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/support_tv3" />
+            <TextView android:textSize="15sp" android:textColor="@color/grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/support_tv4" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="15sp" android:textColor="@color/grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="HTC ：
+HTC X920e" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="15sp" android:textColor="@color/grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="LG ：
+LG G2" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="15sp" android:textColor="@color/grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="VIVO ：
+VIVO Xplay" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="15sp" android:textColor="@color/grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="OPPO ：
+OPPO FIND7" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="15sp" android:textColor="@color/grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="MI ：
+2 2s 3 4" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="15sp" android:textColor="@color/grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="MIEIZU：
+NOTE2 MX5 MZX4" android:layout_alignParentLeft="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

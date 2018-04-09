@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <fish>
+        <fileName
+            fish_lv_1.png />
+        <scroe
+            10 />
+        <speed
+            100 />
+        <width
+            408 />
+        <height
+            78 />
+        <hit
+            1 />
+    </fish>
+    <fish>
+        <fileName
+            fish_lv_2.png />
+        <scroe
+            30 />
+        <speed
+            200 />
+        <width
+            420 />
+        <height
+            192 />
+        <hit
+            2 />
+    </fish>
+    <fish>
+        <fileName
+            fish_lv_3.png />
+        <scroe
+            60 />
+        <speed
+            300 />
+        <width
+            396 />
+        <height
+            240 />
+        <hit
+            3 />
+    </fish>
+    <fish>
+        <fileName
+            fish_lv_4.png />
+        <scroe
+            100 />
+        <speed
+            400 />
+        <width
+            444 />
+        <height
+            276 />
+        <hit
+            4 />
+    </fish>
+</root>

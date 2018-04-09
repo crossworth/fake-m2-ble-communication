@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/activity_weixin_guide" app:background="@color/main_style_background" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar app:id="@id/action_bar" app:custom_back_title="@string/actionbar_title_wx_guide_page" style="@style/DefaultActionBar" />
+    <android.support.v4.view.ViewPager app:id="@+id/view_pager" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/action_bar" />
+    <FrameLayout app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="48dp" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true">
+        <LinearLayout app:layout_width="wrap_content" app:layout_height="wrap_content">
+            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/wx_guide_point2" />
+            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="16dp" app:src="@drawable/wx_guide_point2" />
+            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="16dp" app:src="@drawable/wx_guide_point2" />
+            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="16dp" app:src="@drawable/wx_guide_point2" />
+        </LinearLayout>
+        <ImageView app:id="@+id/img_point" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/wx_guide_point1" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" style="@style/DefaultDialogLayout">
+    <TextView android:id="@+id/dialog_title" android:text="@string/string_reminder" style="@style/DefaultDialogTitle" />
+    <TextView android:id="@id/sys_tv" android:text="@string/bt_phone_found" style="@style/AlertDialogMessage" />
+    <Button android:id="@id/btn_find" android:visibility="visible" android:layout_width="match_parent" android:text="@string/string_ok" style="@style/DefaultDialogButton" />
+</LinearLayout>

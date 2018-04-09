@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/main_style_background" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar app:background="@color/background_color_main" app:layout_width="match_parent" app:layout_height="wrap_content" app:custom_back_title="@string/mine_water_reminder" />
+    <ScrollView app:orientation="vertical" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="match_parent">
+        <LinearLayout app:orientation="vertical" app:paddingLeft="18dp" app:paddingRight="18dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:layout_marginTop="20dp" app:text="07:00" style="@style/WaterIntakeInfoTitle" />
+            <TextView app:text="@string/drink_notify_body1" style="@style/WaterIntakeInfoContent" />
+            <View style="@style/DividerView" />
+            <TextView app:text="08:40" style="@style/WaterIntakeInfoTitle" />
+            <TextView app:text="@string/drink_notify_body2" style="@style/WaterIntakeInfoContent" />
+            <View style="@style/DividerView" />
+            <TextView app:text="10:00" style="@style/WaterIntakeInfoTitle" />
+            <TextView app:text="@string/drink_notify_body3" style="@style/WaterIntakeInfoContent" />
+            <View style="@style/DividerView" />
+            <TextView app:text="11:30" style="@style/WaterIntakeInfoTitle" />
+            <TextView app:text="@string/drink_notify_body4" style="@style/WaterIntakeInfoContent" />
+            <View style="@style/DividerView" />
+            <TextView app:text="14:30" style="@style/WaterIntakeInfoTitle" />
+            <TextView app:text="@string/drink_notify_body5" style="@style/WaterIntakeInfoContent" />
+            <View style="@style/DividerView" />
+            <TextView app:text="16:00" style="@style/WaterIntakeInfoTitle" />
+            <TextView app:text="@string/drink_notify_body6" style="@style/WaterIntakeInfoContent" />
+            <View style="@style/DividerView" />
+            <TextView app:text="18:00" style="@style/WaterIntakeInfoTitle" />
+            <TextView app:text="@string/drink_notify_body7" style="@style/WaterIntakeInfoContent" />
+            <View style="@style/DividerView" />
+            <TextView app:text="22:00" style="@style/WaterIntakeInfoTitle" />
+            <TextView app:layout_marginBottom="20dp" app:text="@string/drink_notify_body8" style="@style/WaterIntakeInfoContent" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

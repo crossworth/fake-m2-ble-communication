@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/share_content" android:background="#f7402e" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x21001">
+        <ImageView android:id="@+id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:layout_marginRight="16dp" android:src="@drawable/ic_close" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="134dp">
+            <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="80dp" android:textColor="#ffffff" android:id="@+id/share_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <TextView android:textSize="14dp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="70dp" android:text="@string/heart_rate_time_description" android:layout_toRightOf="@+id/share_count" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12dp" android:textColor="#ffffff" android:id="@+id/share_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4月25日" />
+                <TextView android:textSize="12dp" android:textColor="#ffffff" android:id="@+id/share_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="16:00" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:src="@drawable/heart" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom" android:background="#f9fbfc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/orange_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18sp" android:textColor="#9c9c9c" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share" />
+            <TextView android:textSize="18sp" android:textColor="#f47525" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/droihealth" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+            <ImageView android:id="@+id/share_weixin" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/sns_icon_facebook" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/share_quan" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/sns_icon_twitter" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/share_qq" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/sns_icon_whatsapp" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/share_more" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/sns_icon_instagram" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/main_style_background" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar app:id="@+id/actionbar" app:custom_back_title="@string/sedentary_notice" style="@style/DefaultActionBar" />
+    <TextView app:text="@string/sedentary_remind_title" style="@style/SettingGroupTextView" />
+    <RelativeLayout style="@style/device_rl_layout_style">
+        <TextView app:id="@+id/disturbance_mode_tv" app:text="@string/open_sedentary_remind" style="@style/device_text_style" />
+        <CheckBox app:id="@+id/cb_sedentary_remind" app:onClick="onClick" style="@style/devcie_checkbox_style" />
+    </RelativeLayout>
+    <View style="@style/SettingDividerView" />
+    <LinearLayout app:id="@+id/sedentary_remind_start_time_rl" app:paddingRight="16dp" style="@style/SettingItemLayout">
+        <TextView app:text="@string/start_time" style="@style/SettingItemTitleTextView" />
+        <TextView app:id="@+id/sedentary_remind_start_time_tv" app:text="22:00" app:drawableRight="0x0" style="@style/SettingValueTextViewWithArrow" />
+    </LinearLayout>
+    <View style="@style/SettingDividerView" />
+    <LinearLayout app:id="@+id/sedentary_remind_end_time_rl" app:paddingRight="16dp" style="@style/SettingItemLayout">
+        <TextView app:text="@string/end_time" style="@style/SettingItemTitleTextView" />
+        <TextView app:id="@+id/sedentary_remind_end_time_tv" app:text="07:00" app:drawableRight="0x0" style="@style/SettingValueTextViewWithArrow" />
+    </LinearLayout>
+    <View style="@style/SettingDividerView" />
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:paddingRight="16dp" style="@style/SettingItemLayoutLarge"
+        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+            <TextView app:id="@+id/lunch_not_break_tv" app:text="@string/lunch_not_break" style="@style/SettingItemTitleTextView" />
+            <TextView app:text="@string/remind_not_me" style="@style/SettingItemDetailTextView" />
+        </LinearLayout>
+        <CheckBox app:id="@+id/cb_lunch_not_break" app:onClick="onClick" style="@style/SettingSwitchButton" />
+    </LinearLayout>
+    <View app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" style="@style/DividerLargeView" />
+</LinearLayout>

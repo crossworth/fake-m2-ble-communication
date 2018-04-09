@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/share_back_heart" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:text="@string/share_heart" style="@style/ShareTitleTextView" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_value_top_margin">
+            <TextView android:id="@+id/tv_heart_count" android:text="0" android:layout_centerInParent="true" style="@style/ShareValueTextView" />
+            <TextView android:layout_marginLeft="10dp" android:text="@string/share_heart_unit" android:layout_toRightOf="@+id/tv_heart_count" android:layout_alignBaseline="@+id/tv_heart_count" style="@style/ShareValueUnitTextView" />
+        </RelativeLayout>
+        <TextView android:id="@+id/tv_date" android:text="2016.01.01" style="@style/ShareDateTextView" />
+    </LinearLayout>
+</FrameLayout>

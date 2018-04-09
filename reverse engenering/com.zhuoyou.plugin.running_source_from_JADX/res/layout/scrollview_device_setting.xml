@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/info_scroll_view" android:background="@color/divider_large_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_notice_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/title_notice" style="@style/device_title_text_style" />
+            <RelativeLayout android:id="@+id/rl_in_call_remind" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/in_call_notice" style="@style/device_text_style" />
+                <CheckBox android:id="@+id/cb_in_call" android:onClick="onClick" style="@style/devcie_checkbox_style" />
+            </RelativeLayout>
+            <View style="@style/SettingDividerView" />
+            <RelativeLayout android:id="@+id/rl_sms_remind" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/sms_notice" style="@style/device_text_style" />
+                <CheckBox android:id="@+id/cb_sms" android:onClick="onClick" style="@style/devcie_checkbox_style" />
+            </RelativeLayout>
+            <View style="@style/SettingDividerView" />
+            <RelativeLayout android:id="@+id/rl_sport_target" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/standard_reminder" style="@style/device_text_style" />
+                <CheckBox android:id="@+id/cb_sport_target" android:onClick="onClick" style="@style/devcie_checkbox_style" />
+            </RelativeLayout>
+            <View style="@style/SettingDividerView" />
+            <RelativeLayout android:id="@+id/rl_push_message" android:onClick="onClick" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/push_notice" style="@style/device_text_style" />
+                <TextView android:id="@+id/tv_push_message_num" android:text="@string/not_open" style="@style/device_text_end_style" />
+            </RelativeLayout>
+            <View style="@style/SettingDividerView" />
+            <RelativeLayout android:id="@+id/rl_disturbance_mode" android:onClick="onClick" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/disturbance_mode" style="@style/device_text_style" />
+                <TextView android:id="@+id/tv_distarbance_mode" style="@style/device_text_end_style" />
+                <TextView android:id="@+id/tv_distarbance_mode_switch" android:text="@string/not_open" style="@style/device_text_end_style" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_device_display_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/device_diaplay" style="@style/device_title_text_style" />
+            <RelativeLayout android:id="@+id/rl_wrist_lift" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/wrist_bright_screen" style="@style/device_text_style" />
+                <CheckBox android:id="@+id/cb_wrist_lift" android:onClick="onClick" style="@style/devcie_checkbox_style" />
+            </RelativeLayout>
+            <View style="@style/SettingDividerView" />
+            <RelativeLayout android:id="@+id/rl_display_setting" android:onClick="onClick" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/m2_ui_display" style="@style/device_text_style" />
+                <TextView style="@style/device_text_end_style" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_alarm_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/title_alarm" style="@style/device_title_text_style" />
+            <RelativeLayout android:id="@+id/rl_light_sleep_alarm" android:onClick="onClick" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/light_sleep_notice" style="@style/device_text_style" />
+                <TextView android:id="@+id/tv_light_sleep_alarm" android:text="@string/not_open" style="@style/device_text_end_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_sedentary_notice" android:onClick="onClick" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/sedentary_notice" style="@style/device_text_style" />
+                <TextView android:id="@+id/tv_sedentary_remind" android:text="@string/not_open" style="@style/device_text_end_style" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_antilost_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/title_antilost" style="@style/device_title_text_style" />
+            <RelativeLayout android:id="@+id/rl_find_phone" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/antilost_notic" style="@style/device_text_style" />
+                <CheckBox android:id="@+id/cb_antilost" android:onClick="onClick" style="@style/devcie_checkbox_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_find_bracelet" android:onClick="onClick" style="@style/device_rl_layout_style">
+                <TextView android:text="@string/find_bracelet" style="@style/device_text_style" />
+                <TextView style="@style/device_text_end_style" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

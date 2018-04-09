@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#181818" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/botton_lay">
+        <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="matrix" android:layout_centerInParent="true" />
+        <com.zhuoyou.plugin.info.ClipView android:id="@+id/clipview" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/botton_lay" android:background="#171717" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7301" android:layout_alignParentBottom="true"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/cancel_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/custom_cancel_selector" android:layout_width="UNKNOWN_DATA_0x3401" android:layout_height="UNKNOWN_DATA_0x3401" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/left_rotate_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/left_rotate_selector" android:layout_width="UNKNOWN_DATA_0x3401" android:layout_height="UNKNOWN_DATA_0x3401" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/right_rotate_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/right_rotate_selector" android:layout_width="UNKNOWN_DATA_0x3401" android:layout_height="UNKNOWN_DATA_0x3401" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/ok_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/custom_ok_selector" android:layout_width="UNKNOWN_DATA_0x3401" android:layout_height="UNKNOWN_DATA_0x3401" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/divider_large_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar app:id="@+id/actionbar" app:custom_title="@string/actionbar_title_login" app:back_button_visibility="false" style="@style/DefaultActionBar" />
+    <AutoCompleteTextView app:id="@+id/user_name" app:hint="@string/account_input_name" app:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" app:imeActionLabel="@string/account_next" app:imeActionId="@+id/next" style="@style/AccountNameEditText" />
+    <EditText app:id="@+id/user_password" app:hint="@string/account_input_password" app:imeOptions="UNKNOWN_DATA_0x0" app:imeActionLabel="@string/account_login" app:imeActionId="@+id/login" style="@style/AccountPasswdEditText" />
+    <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="32dp" app:layout_marginTop="30dp" app:layout_marginRight="32dp">
+        <TextView app:id="@+id/btn_register" app:text="@string/account_register" app:onClick="onClick" style="@style/AccountTextView" />
+        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        <TextView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/btn_forget_pwd" app:visibility="gone" app:text="@string/account_forget_password" app:onClick="onClick" style="@style/AccountTextView" />
+    </LinearLayout>
+    <TextView app:id="@+id/btn_login" app:layout_marginTop="34dp" app:text="@string/account_login" app:onClick="onClick" style="@style/AccountButton" />
+    <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+    <TextView app:textSize="12dp" app:textColor="#949494" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/account_third_login" />
+    <LinearLayout app:paddingLeft="24dp" app:paddingRight="24dp" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="30dp" app:layout_marginBottom="25dp">
+        <TextView app:id="@+id/btn_login_qq" app:text="@string/account_third_qq" app:drawableTop="@drawable/ac_qq" app:onClick="onClick" style="@style/AccountThirdButton" />
+        <TextView app:id="@+id/btn_login_wechat" app:text="@string/account_third_wechat" app:drawableTop="@drawable/ac_wechat" app:onClick="onClick" style="@style/AccountThirdButton" />
+        <TextView app:id="@+id/btn_login_weibo" app:text="@string/account_third_weibo" app:drawableTop="@drawable/ac_weibo" app:onClick="onClick" style="@style/AccountThirdButton" />
+        <TextView app:id="@+id/btn_login_droi" app:text="@string/account_third_droi" app:drawableTop="@drawable/ac_droi" app:onClick="onClick" style="@style/AccountThirdButton" />
+    </LinearLayout>
+</LinearLayout>

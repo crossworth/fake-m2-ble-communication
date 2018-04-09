@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" myWheelView:orientation="vertical" myWheelView:background="#ffffff" myWheelView:layout_width="match_parent" myWheelView:layout_height="match_parent">
+    <View myWheelView:background="#b3b3b3" myWheelView:layout_width="match_parent" myWheelView:layout_height="UNKNOWN_DATA_0x40000031" />
+    <RelativeLayout myWheelView:layout_width="match_parent" myWheelView:layout_height="UNKNOWN_DATA_0x2801">
+        <TextView myWheelView:textSize="18sp" myWheelView:textColor="#f1378a" myWheelView:id="@+id/tv_ok" myWheelView:layout_width="wrap_content" myWheelView:layout_height="wrap_content" myWheelView:layout_marginRight="22dp" myWheelView:text="@string/it_is_ok" myWheelView:layout_alignParentRight="true" myWheelView:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View myWheelView:background="#cccccc" myWheelView:layout_width="match_parent" myWheelView:layout_height="UNKNOWN_DATA_0x40000031" myWheelView:layout_marginBottom="10dp" />
+    <LinearLayout myWheelView:orientation="horizontal" myWheelView:layout_width="match_parent" myWheelView:layout_height="UNKNOWN_DATA_0xe601">
+        <com.zhuoyou.plugin.view.WheelView myWheelView:id="@+id/wView_year" myWheelView:layout_width="UNKNOWN_DATA_0x1" myWheelView:layout_height="match_parent" myWheelView:layout_weight="1.0" />
+        <com.zhuoyou.plugin.view.WheelView myWheelView:id="@+id/wView_month" myWheelView:layout_width="UNKNOWN_DATA_0x1" myWheelView:layout_height="match_parent" myWheelView:layout_weight="1.0" />
+        <com.zhuoyou.plugin.view.WheelView myWheelView:id="@+id/wView_date" myWheelView:layout_width="UNKNOWN_DATA_0x1" myWheelView:layout_height="match_parent" myWheelView:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

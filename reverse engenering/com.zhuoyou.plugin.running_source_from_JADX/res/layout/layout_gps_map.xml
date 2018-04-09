@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <com.baidu.mapapi.map.MapView android:id="@+id/map" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/gps_bg_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true">
+            <ImageView android:id="@+id/img_gps_map_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gps_searching" />
+            <TextView android:textSize="12dp" android:textColor="0x106000b" android:id="@+id/tv_gps_map_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/gps_is_searching" />
+        </LinearLayout>
+        <ImageView android:id="@+id/btn_map_zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_marginBottom="12dp" android:src="@drawable/gps_zoomin" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="onClick" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="50dp" android:paddingRight="50dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <TextView android:textSize="34dp" android:textColor="#2a2a2a" android:id="@+id/tv_map_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.00" android:layout_centerInParent="true" />
+        <TextView android:textSize="18dp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2201" android:layout_marginLeft="6dp" android:text="km" android:layout_weight="1.0" />
+        <TextView android:textSize="32dp" android:textColor="#2a2a2a" android:id="@+id/tv_map_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" />
+    </LinearLayout>
+</LinearLayout>

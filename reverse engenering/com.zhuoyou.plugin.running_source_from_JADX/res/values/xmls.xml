@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="accessibility_service_config">res/xml/accessibility_service_config.xml</xml>
+    <xml name="device_info">res/xml/device_info.xml</xml>
+    <xml name="level_1">res/xml/level_1.xml</xml>
+</resources>

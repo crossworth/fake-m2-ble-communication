@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:orientation="horizontal" wheel:background="@drawable/setting_item_background" wheel:paddingTop="15dp" wheel:paddingBottom="15dp" wheel:layout_width="match_parent" wheel:layout_height="wrap_content">
+    <com.zhuoyou.plugin.running.view.ProgressWheel wheel:id="@+id/progress_wheel" wheel:visibility="gone" wheel:layout_width="UNKNOWN_DATA_0x1001" wheel:layout_height="UNKNOWN_DATA_0x1001" wheel:layout_marginRight="10dp" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@color/background_color_main" wheel:matProg_barWidth="2dp" />
+    <TextView wheel:textSize="14dp" wheel:textColor="#949494" wheel:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@+id/btn_load_more" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:text="正在加载" />
+</LinearLayout>

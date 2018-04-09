@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="advance_run_fifth_week_plan">
+        <item>1st\nJogging 8 minutes; 1 minute walk;\nrepeat 2 times; 1 minute relaxation exercise.</item>
+        <item>2nd\nJogging 8 minutes; 1 minute walk;\nrepeat 2 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 8 minutes; 1 minute walk;\nrepeat 2 times; 1 minute relaxation exercise.</item>
+        <item>4th\nJogging 8 minutes; 1 minute walk;\nrepeat 2 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="advance_run_first_week_plan">
+        <item>1st\nJogging 1 minute; 1 minute walk;\nrepeat 8 times; 1 minute relaxation exercise.</item>
+        <item>2nd\nJogging 1 minute; 1 minute walk;\nrepeat 8 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 1 minute; 1 minute walk;\nrepeat 8 times; 1 minute relaxation exercise.</item>
+        <item>4th\nJogging 1 minute; 1 minute walk;\nrepeat 8 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="advance_run_fourth_week_plan">
+        <item>1st\nJogging 6 minutes; 1 minute walk;\nrepeat 3 times; 1 minute relaxation exercise.</item>
+        <item>2nd\nJogging 6 minutes; 1 minute walk;\nrepeat 3 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 6 minutes; 1 minute walk;\nrepeat 3 times; 1 minute relaxation exercise.</item>
+        <item>4th\nJogging 6 minutes; 1 minute walk;\nrepeat 3 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="advance_run_second_week_plan">
+        <item>1st\nJogging 2 minutes; 1 minute walk;\nrepeat 6 times; 1 minute relaxation exercise.</item>
+        <item>2nd\nJogging 2 minutes; 1 minute walk;\nrepeat 6 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 2 minutes; 1 minute walk;\nrepeat 6 times; 1 minute relaxation exercise.</item>
+        <item>4th\nJogging 2 minutes; 1 minute walk;\nrepeat 6 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="advance_run_sixth_week_plan">
+        <item>1st\nJogging 10 minutes; 2 minutes walk;\nrepeat 2 times; 1 minute relaxation exercise.</item>
+        <item>2nd\nJogging 10 minutes; 2 minutes walk;\nrepeat 2 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 10 minutes; 2 minutes walk;\nrepeat 2 times; 1 minute relaxation exercise.</item>
+        <item>4th\nJogging 10 minutes; 2 minutes walk;\nrepeat 2 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="advance_run_third_week_plan">
+        <item>1st\nJogging 4 minutes; 1 minute walk;\nrepeated 4 times; 1 minute relaxation exercise.</item>
+        <item>2nd\nJogging 4 minutes; 1 minute walk;\nrepeated 4 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 4 minutes; 1 minute walk;\nrepeated 4 times; 1 minute relaxation exercise.</item>
+        <item>4th\nJogging 4 minutes; 1 minute walk;\nrepeated 4 times; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="beyond_marathon_eighth_week_plan">
+        <item>A day of rest</item>
+        <item>1st\nJogging 5km.</item>
+        <item>2nd\nJogging 8km.</item>
+        <item>3rd\nJogging 3km.</item>
+        <item>A day of rest</item>
+        <item>4th\nJogging 42.195km.</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="beyond_marathon_fifth_week_plan">
+        <item>A day of rest</item>
+        <item>1st\nJogging 6km.</item>
+        <item>2nd\nJogging 12km.</item>
+        <item>3rd\nJogging 6km.</item>
+        <item>A day of rest</item>
+        <item>4th\nJogging 25km.</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="beyond_marathon_first_week_plan">
+        <item>A day of rest</item>
+        <item>1st\nJogging 5km.</item>
+        <item>2nd\nJogging 5km.</item>
+        <item>3rd\nJogging 5km.</item>
+        <item>A day of rest</item>
+        <item>4th\nJogging 10km.</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="beyond_marathon_fourth_week_plan">
+        <item>A day of rest</item>
+        <item>1st\nJogging 5km.</item>
+        <item>2nd\nJogging 10km.</item>
+        <item>3rd\nJogging 5km.</item>
+        <item>A day of rest</item>
+        <item>4th\nJogging 21km.</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="beyond_marathon_second_week_plan">
+        <item>A day of rest</item>
+        <item>1st\nJogging 5km.</item>
+        <item>2nd\nJogging 6km.</item>
+        <item>3rd\nJogging 5km.</item>
+        <item>A day of rest</item>
+        <item>4th\nJogging 8km.</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="beyond_marathon_seventh_week_plan">
+        <item>A day of rest</item>
+        <item>1st\nJogging 8km.</item>
+        <item>2nd\nJogging 15km.</item>
+        <item>3rd\nJogging 8km.</item>
+        <item>A day of rest</item>
+        <item>4th\nJogging 15km.</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="beyond_marathon_sixth_week_plan">
+        <item>A day of rest</item>
+        <item>1st\nJogging 6km.</item>
+        <item>2nd\nJogging 15km.</item>
+        <item>3rd\nJogging 8km.</item>
+        <item>A day of rest</item>
+        <item>4th\nJogging 30km.</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="beyond_marathon_third_week_plan">
+        <item>A day of rest</item>
+        <item>1st\nJogging 5km.</item>
+        <item>2nd\nJogging 8km.</item>
+        <item>3rd\nJogging 5km.</item>
+        <item>A day of rest</item>
+        <item>4th\nJogging 15km.</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="first_marathon_eighth_week_plan">
+        <item>1st\nJogging 20 minutes.</item>
+        <item>A day of rest</item>
+        <item>2nd\nJogging 20 minutes; 5 minutes walk.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 30 minutes.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="first_marathon_fifth_week_plan">
+        <item>1st\nJogging 5 minutes; 3 minutes walk; repeat 4 times.</item>
+        <item>A day of rest</item>
+        <item>2nd\nJogging 10 minutes; 5 minutes walk; repeat 5 times.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 7 minutes; 3 minutes walk; repeat 4 times.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="first_marathon_first_week_plan">
+        <item>1st\n15 minutes walk.</item>
+        <item>A day of rest</item>
+        <item>2nd\n20 minutes of brisk walking.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 1 minute; 1 minute walk; repeat 6–10 times.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="first_marathon_fourth_week_plan">
+        <item>1st\nJogging 3 minutes; 2 minutes walk; repeat 7 times.</item>
+        <item>A day of rest</item>
+        <item>2nd\nJogging 3 minutes; 90 seconds walk; repeat 5 times.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 4 minutes; 2 minutes walk; repeat 5 times.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="first_marathon_second_week_plan">
+        <item>1st\nJogging 1 minute; 1 minute walk; repeat 6–8 times.</item>
+        <item>A day of rest</item>
+        <item>2nd\nJogging 1 minute; 1 minute walk; repeat 6–8 times.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 2 minutes; 1 minute walk; repeat 6–8 times.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="first_marathon_seventh_week_plan">
+        <item>1st\nJogging 10 minutes; 2 minutes walk; repeat 2 times.</item>
+        <item>A day of rest</item>
+        <item>2nd\nJogging 15 minutes; 5 minutes walk.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 20 minutes.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="first_marathon_sixth_week_plan">
+        <item>1st\nJogging 7 minutes; 3 minutes walk; repeat 5 times.</item>
+        <item>A day of rest</item>
+        <item>2nd\nJogging 10 minutes; 5 minutes walk; repeat 2 times.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 10 minutes; 5 minutes walk; repeat 2 times.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="first_marathon_third_week_plan">
+        <item>1st\nJogging 2 minutes; 2 minutes walk; repeat 6 times.</item>
+        <item>A day of rest</item>
+        <item>2nd\nJogging 2 minutes; 2 minutes walk; repeat 8 times.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 3 minutes; 2 minutes walk; repeat 5 times.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="primary_run_first_week_plan">
+        <item>1st\n10 minutes of brisk walking; walking 3 minutes;\n10 minutes of brisk walking; relax a minute.</item>
+        <item>2nd\n10 minutes of brisk walking; walking 3 minutes;\n10 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>3rd\n10 minutes of brisk walking; walking 3 minutes;\n10 minutes of brisk walking; relax a minute.</item>
+        <item>4th\n10 minutes of brisk walking; walking 3 minutes;\n10 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="primary_run_fourth_week_plan">
+        <item>1st\nJogging 1 minute; 1 minute walk;\njogging 1 minute; repeat 12 times; relax a minute.</item>
+        <item>2nd\nJogging 1 minute; 1 minute walk;\njogging 1 minute; repeat 12 times; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 1 minute; 1 minute walk;\njogging 1 minute; repeat 12 times; relax a minute.</item>
+        <item>4th\nJogging 1 minute; 1 minute walk;\njogging 1 minute; repeat 12 times; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="primary_run_second_week_plan">
+        <item>1st\n15 minutes of brisk walking; walking 3 minutes; 1 minute relaxation exercise.</item>
+        <item>2nd\n15 minutes of brisk walking; walking 3 minutes; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>3rd\n15 minutes of brisk walking; walking 3 minutes; 1 minute relaxation exercise.</item>
+        <item>4th\n15 minutes of brisk walking; walking 3 minutes; 1 minute relaxation exercise.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="primary_run_third_week_plan">
+        <item>1st\nJogging 1 minute; 1 minute walk;\njogging 1 minute; repeated 9 times; relax a minute.</item>
+        <item>2nd\nJogging 1 minute; 1 minute walk;\njogging 1 minute; repeated 9 times; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>3rd\nJogging 1 minute; 1 minute walk;\njogging 1 minute; repeated 9 times; relax a minute.</item>
+        <item>4th\nJogging 1 minute; 1 minute walk;\njogging 1 minute; repeated 9 times; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="walk_first_week_plan">
+        <item>1st\n5 minutes of brisk walking; walking 3 minutes;\n5 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>2nd\n5 minutes of brisk walking; walking 3 minutes;\n5 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>3rd\n5 minutes of brisk walking; walking 3 minutes;\n5 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="walk_fourth_week_plan">
+        <item>1st\n10 minutes of brisk walking; walking 3 minutes;\n10 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>2nd\n10 minutes of brisk walking; walking 3 minutes;\n10 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>3rd\n10 minutes of brisk walking; walking 3 minutes;\n10 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="walk_second_week_plan">
+        <item>1st\n6 minutes of brisk walking; walking 3 minutes;\n7 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>2nd\n6 minutes of brisk walking; walking 3 minutes;\n7 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>3rd\n6 minutes of brisk walking; walking 3 minutes;\n7 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="walk_third_week_plan">
+        <item>1st\n8 minutes of brisk walking; walking 3 minutes;\n8 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>2nd\n8 minutes of brisk walking; walking 3 minutes;\n8 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>3rd\n8 minutes of brisk walking; walking 3 minutes;\n8 minutes of brisk walking; relax a minute.</item>
+        <item>A day of rest</item>
+        <item>A day of rest</item>
+    </array>
+    <array name="week_str">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </array>
+    <array name="month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+    <array name="week">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI</item>
+        <item>SAT</item>
+    </array>
+</resources>

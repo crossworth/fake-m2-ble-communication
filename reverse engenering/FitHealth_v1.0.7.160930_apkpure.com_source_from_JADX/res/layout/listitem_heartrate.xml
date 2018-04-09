@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:id="@+id/heartrate_lay" android:background="@drawable/listitem_heart_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="10dp" android:textColor="#b5b5b5" android:id="@+id/heartrate_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_marginRight="130dp" android:layout_alignParentRight="true" />
+        <TextView android:textSize="10dp" android:textColor="#b5b5b5" android:id="@+id/heartrate_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:layout_alignParentLeft="true" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingRight="60dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_centerHorizontal="true">
+            <RelativeLayout android:id="@+id/polyline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/imageview_heart" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/ic_heart" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <TextView android:textSize="13dp" android:textColor="#7a7a7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/now_heart_data" />
+                <TextView android:textSize="28dp" android:textColor="#f7402e" android:id="@+id/heartrate_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="123" />
+                <TextView android:textSize="13dp" android:textColor="#7a7a7a" android:id="@+id/heartrate_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginTop="5dp" android:text="@string/heart_rate_time_description" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

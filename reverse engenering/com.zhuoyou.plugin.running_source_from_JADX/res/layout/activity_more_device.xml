@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" myactionbar:orientation="vertical" myactionbar:layout_width="match_parent" myactionbar:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar myactionbar:id="@+id/actionbar" myactionbar:custom_back_title="@string/actionbar_title_more_device" style="@style/DefaultActionBar" />
+    <ImageView myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content" myactionbar:layout_marginTop="20dp" myactionbar:src="@drawable/bt_help_tip" />
+    <TextView myactionbar:textSize="20sp" myactionbar:textColor="#777777" myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content" myactionbar:layout_marginLeft="20dp" myactionbar:layout_marginRight="20dp" myactionbar:text="@string/bt_tip_string_short" />
+    <TextView myactionbar:textSize="16sp" myactionbar:textColor="#777777" myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content" myactionbar:layout_marginLeft="20dp" myactionbar:layout_marginRight="20dp" myactionbar:text="@string/bt_tip_string" />
+    <Button myactionbar:textSize="20sp" myactionbar:textColor="#ffffff" myactionbar:id="@+id/find_more_equip" myactionbar:focusable="true" myactionbar:layout_width="match_parent" myactionbar:layout_height="UNKNOWN_DATA_0x2d01" myactionbar:layout_marginLeft="20dp" myactionbar:layout_marginTop="30dp" myactionbar:layout_marginRight="20dp" myactionbar:text="@string/bt_iknow" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/main_style_background" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar app:id="@+id/actionbar" app:custom_back_title="@string/actionbar_title_device_setting" style="@style/DefaultActionBar" />
+    <include layout="@layout/scrollview_device_setting" />
+</LinearLayout>

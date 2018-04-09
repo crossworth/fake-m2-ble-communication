@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/setting_item_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="14dp" android:textColor="#2a2a2a" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_time" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="16dp" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001">
+        <ImageView android:id="@+id/img_locus" android:layout_width="UNKNOWN_DATA_0x4801" android:layout_height="UNKNOWN_DATA_0x3601" android:layout_marginLeft="16dp" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_weight="1.0">
+            <TextView android:id="@+id/tv_duration" android:text="@string/gps_history_duration" style="@style/GpsHistoryDataValue" />
+            <TextView android:id="@+id/tv_distance" android:layout_marginTop="1dp" android:text="@string/gps_history_distance" style="@style/GpsHistoryDataValue" />
+            <TextView android:id="@+id/tv_cal" android:layout_marginTop="1dp" android:text="@string/gps_history_cal" style="@style/GpsHistoryDataValue" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:src="@drawable/setting_right_arrow" />
+    </LinearLayout>
+</LinearLayout>

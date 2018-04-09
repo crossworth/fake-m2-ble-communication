@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="advance_run_fifth_week_plan">
+        <item>1re \njogging 8 minutes; 1 minute walk; \nrepeat 2 fois; 1 minute exercice de relaxation.</item>
+        <item>2e \njogging 8 minutes; 1 minute walk; \nrepeat 2 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 8 minutes; 1 minute walk; \nrepeat 2 fois; 1 minute exercice de relaxation.</item>
+        <item>4e \njogging 8 minutes; 1 minute walk; \nrepeat 2 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="advance_run_first_week_plan">
+        <item>1re \njogging 1 minute, 1 minute walk; \nrepeat 8 fois; 1 minute exercice de relaxation.</item>
+        <item>2e \njogging 1 minute, 1 minute walk; \nrepeat 8 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 1 minute, 1 minute walk; \nrepeat 8 fois; 1 minute exercice de relaxation.</item>
+        <item>4e \njogging 1 minute, 1 minute walk; \nrepeat 8 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="advance_run_fourth_week_plan">
+        <item>1re \njogging 6 minutes 1 minute walk; \nrepeat 3 fois; 1 minute exercice de relaxation.</item>
+        <item>2e \njogging 6 minutes 1 minute walk; \nrepeat 3 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 6 minutes 1 minute walk; \nrepeat 3 fois; 1 minute exercice de relaxation.</item>
+        <item>4e \njogging 6 minutes 1 minute walk; \nrepeat 3 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="advance_run_second_week_plan">
+        <item>1re \njogging 2 minutes 1 minute walk; \nrepeat 6 fois; 1 minute exercice de relaxation.</item>
+        <item>2e \njogging 2 minutes 1 minute walk; \nrepeat 6 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 2 minutes 1 minute walk; \nrepeat 6 fois; 1 minute exercice de relaxation.</item>
+        <item>4e \njogging 2 minutes 1 minute walk; \nrepeat 6 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="advance_run_sixth_week_plan">
+        <item>1re \njogging 10 minutes; 2 minutes de marche; \nrepeat 2 fois; 1 minute exercice de relaxation.</item>
+        <item>2e \njogging 10 minutes; 2 minutes de marche; \nrepeat 2 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 10 minutes; 2 minutes de marche; \nrepeat 2 fois; 1 minute exercice de relaxation.</item>
+        <item>4e \njogging 10 minutes; 2 minutes de marche; \nrepeat 2 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="advance_run_third_week_plan">
+        <item>1re \njogging 4 minutes; 1 minute walk; \nrepeated 4 fois; 1 minute exercice de relaxation.</item>
+        <item>2e \njogging 4 minutes; 1 minute walk; \nrepeated 4 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 4 minutes; 1 minute walk; \nrepeated 4 fois; 1 minute exercice de relaxation.</item>
+        <item>4e \njogging 4 minutes; 1 minute walk; \nrepeated 4 fois; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="beyond_marathon_eighth_week_plan">
+        <item>un jour de repos</item>
+        <item>1re \njogging 5 km.</item>
+        <item>2e \njogging 8km.</item>
+        <item>3e \njogging 3 km.</item>
+        <item>un jour de repos</item>
+        <item>4e \njogging 42.195km.</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="beyond_marathon_fifth_week_plan">
+        <item>un jour de repos</item>
+        <item>1re \njogging 6km.</item>
+        <item>2e \njogging 12km.</item>
+        <item>3e \njogging 6km.</item>
+        <item>un jour de repos</item>
+        <item>4e \njogging 25 km.</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="beyond_marathon_first_week_plan">
+        <item>un jour de repos</item>
+        <item>1re \njogging 5 km.</item>
+        <item>2e \njogging 5 km.</item>
+        <item>3e \njogging 5 km.</item>
+        <item>un jour de repos</item>
+        <item>4e \njogging 10km.</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="beyond_marathon_fourth_week_plan">
+        <item>un jour de repos</item>
+        <item>1re \njogging 5 km.</item>
+        <item>2e \njogging 10km.</item>
+        <item>3e \njogging 5 km.</item>
+        <item>un jour de repos</item>
+        <item>4e \njogging 21 km.</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="beyond_marathon_second_week_plan">
+        <item>un jour de repos</item>
+        <item>1re \njogging 5 km.</item>
+        <item>2e \njogging 6km.</item>
+        <item>3e \njogging 5 km.</item>
+        <item>un jour de repos</item>
+        <item>4e \njogging 8km.</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="beyond_marathon_seventh_week_plan">
+        <item>un jour de repos</item>
+        <item>1re \njogging 8km.</item>
+        <item>2e \njogging 15km.</item>
+        <item>3e \njogging 8km.</item>
+        <item>un jour de repos</item>
+        <item>4e \njogging 15km.</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="beyond_marathon_sixth_week_plan">
+        <item>un jour de repos</item>
+        <item>1re \njogging 6km.</item>
+        <item>2e \njogging 15km.</item>
+        <item>3e \njogging 8km.</item>
+        <item>un jour de repos</item>
+        <item>4e \njogging 30 km.</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="beyond_marathon_third_week_plan">
+        <item>un jour de repos</item>
+        <item>1re \njogging 5 km.</item>
+        <item>2e \njogging 8km.</item>
+        <item>3e \njogging 5 km.</item>
+        <item>un jour de repos</item>
+        <item>4e \njogging 15km.</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="first_marathon_eighth_week_plan">
+        <item>1re \njogging 20 minutes.</item>
+        <item>un jour de repos</item>
+        <item>2e \njogging 20 minutes; 5 minutes à entarté.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 30 minutes.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="first_marathon_fifth_week_plan">
+        <item>1re \njogging 5 minutes; 3 minutes de marche; r é p è te quatre fois.</item>
+        <item>un jour de repos</item>
+        <item>2e \njogging 10 minutes; 5 minutes de marche; r é p è te 5 fois.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 7 minutes; 3 minutes de marche; r é p è te quatre fois.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="first_marathon_first_week_plan">
+        <item>1re \n15 minutes de marche.</item>
+        <item>un jour de repos</item>
+        <item>2e \n20 minutes de marche rapide.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 1 minute, 1 minute walk, r é p é ter 6 – 10 fois.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="first_marathon_fourth_week_plan">
+        <item>1re \njogging 3 minutes; 2 minutes de marche; r é p è te 7 fois.</item>
+        <item>un jour de repos</item>
+        <item>2e \njogging 3 minutes; 90 secondes de marche; r é p é ter cinq fois.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 4 minutes; 2 minutes de marche; r é p è te 5 fois.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="first_marathon_second_week_plan">
+        <item>1re \njogging 1 minute, 1 minute walk, r é p é ter 6 – 8 fois.</item>
+        <item>un jour de repos</item>
+        <item>2e \njogging 1 minute, 1 minute walk, r é p é ter 6 – 8 fois.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 2 minutes 1 minute walk, r é p é ter 6 – 8 fois.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="first_marathon_seventh_week_plan">
+        <item>1re \njogging 10 minutes; 2 minutes de marche; r é p è te 2 fois.</item>
+        <item>un jour de repos</item>
+        <item>2e \njogging 15 minutes; 5 minutes à entarté.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 20 minutes.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="first_marathon_sixth_week_plan">
+        <item>1re \njogging 7 minutes; 3 minutes de marche; r é p è te 5 fois.</item>
+        <item>un jour de repos</item>
+        <item>2e \njogging 10 minutes; 5 minutes de marche; r é p è te 2 fois.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 10 minutes; 5 minutes de marche; r é p è te 2 fois.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="first_marathon_third_week_plan">
+        <item>1re \njogging 2 minutes; 2 minutes de marche; r é p é ter 6 fois.</item>
+        <item>un jour de repos</item>
+        <item>2e \njogging 2 minutes; 2 minutes de marche; r é p è te 8 fois.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 3 minutes; 2 minutes de marche; r é p è te 5 fois.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="primary_run_first_week_plan">
+        <item>1re \n10 minutes de marche rapide; walking 3 minutes; \n10 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>2e \n10 minutes de marche rapide; walking 3 minutes; \n10 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>3e \n10 minutes de marche rapide; walking 3 minutes; \n10 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>4e \n10 minutes de marche rapide; walking 3 minutes; \n10 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="primary_run_fourth_week_plan">
+        <item>1re \njogging 1 minute, 1 minute walk; \njogging 1 minute; je r é p è te 12 fois, d é tendez - vous une minute.</item>
+        <item>2e \njogging 1 minute, 1 minute walk; \njogging 1 minute; je r é p è te 12 fois, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 1 minute, 1 minute walk; \njogging 1 minute; je r é p è te 12 fois, d é tendez - vous une minute.</item>
+        <item>4e \njogging 1 minute, 1 minute walk; \njogging 1 minute; je r é p è te 12 fois, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="primary_run_second_week_plan">
+        <item>1re \n15 minutes de marche rapide; walking 3 minutes; 1 minute exercice de relaxation.</item>
+        <item>2e \n15 minutes de marche rapide; walking 3 minutes; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>3e \n15 minutes de marche rapide; walking 3 minutes; 1 minute exercice de relaxation.</item>
+        <item>4e \n15 minutes de marche rapide; walking 3 minutes; 1 minute exercice de relaxation.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="primary_run_third_week_plan">
+        <item>1re \njogging 1 minute, 1 minute walk; \njogging 1 minute, r é p é t é e 9 fois, d é tendez - vous une minute.</item>
+        <item>2e \njogging 1 minute, 1 minute walk; \njogging 1 minute, r é p é t é e 9 fois, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>3e \njogging 1 minute, 1 minute walk; \njogging 1 minute, r é p é t é e 9 fois, d é tendez - vous une minute.</item>
+        <item>4e \njogging 1 minute, 1 minute walk; \njogging 1 minute, r é p é t é e 9 fois, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="walk_first_week_plan">
+        <item>1re \n5 minutes de marche rapide; walking 3 minutes; \n5 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>2e \n5 minutes de marche rapide; walking 3 minutes; \n5 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>3e \n5 minutes de marche rapide; walking 3 minutes; \n5 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="walk_fourth_week_plan">
+        <item>1re \n10 minutes de marche rapide; walking 3 minutes; \n10 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>2e \n10 minutes de marche rapide; walking 3 minutes; \n10 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>3e \n10 minutes de marche rapide; walking 3 minutes; \n10 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="walk_second_week_plan">
+        <item>1re \n6 minutes de marche rapide; walking 3 minutes; \n7 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>2e \n6 minutes de marche rapide; walking 3 minutes; \n7 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>3e \n6 minutes de marche rapide; walking 3 minutes; \n7 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="walk_third_week_plan">
+        <item>1re \n8 minutes de marche rapide; walking 3 minutes; \n8 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>2e \n8 minutes de marche rapide; walking 3 minutes; \n8 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>3e \n8 minutes de marche rapide; walking 3 minutes; \n8 minutes de marche rapide, d é tendez - vous une minute.</item>
+        <item>un jour de repos</item>
+        <item>un jour de repos</item>
+    </array>
+    <array name="week_str">
+        <item>mon</item>
+        <item>aut</item>
+        <item>wed</item>
+        <item>thu</item>
+        <item>fri</item>
+        <item>assis</item>
+        <item>sun</item>
+    </array>
+</resources>

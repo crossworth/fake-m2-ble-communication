@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:id="@+id/weight_lay" android:background="@drawable/listitem_weight_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="10dp" android:textColor="#b5b5b5" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/time" android:layout_centerHorizontal="true">
+            <RelativeLayout android:id="@+id/polyline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/polyline_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4e01" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="13dp" android:textColor="#7a7a7a" android:id="@+id/wei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/weight_tv" />
+                    <TextView android:textSize="28dp" android:textColor="#f3378b" android:id="@+id/weight" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="13dp" android:textColor="#7a7a7a" android:id="@+id/unit_weight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unit_weight" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

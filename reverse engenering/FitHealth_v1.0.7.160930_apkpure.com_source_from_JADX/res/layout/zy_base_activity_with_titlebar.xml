@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/zy_top_bg_new" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090062">
+        <ImageView android:textColor="#ffffff" android:id="@id/zy_left_button" android:background="@drawable/zy_btn_usercenter_back" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/zy_back_diver_id" android:background="@drawable/zy_usercenter_back_diver" android:clickable="true" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2401" android:layout_toRightOf="@id/zy_left_button" android:layout_centerVertical="true" />
+        <TextView android:textSize="18sp" android:textColor="#ffffff" android:id="@id/zy_base_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_toRightOf="@id/zy_back_diver_id" android:layout_centerVertical="true" />
+        <LinearLayout android:id="@id/zy_right_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:textColor="#ffffff" android:background="@drawable/zy_btn_base_setting" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/zy_bg_new_id" android:background="@drawable/zy_bg_new" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/zy_layout_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp" />
+    </RelativeLayout> />

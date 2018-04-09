@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/running_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" layout="@layout/running_actionbar" />
+    <ScrollView android:orientation="vertical" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:orientation="vertical" android:id="@+id/common_problem" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="25dp" android:layout_marginRight="12dp">
+                <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/questions_tv1" />
+                <TextView android:textColor="#686868" android:id="@+id/tv_solvep1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/questions_tv2" android:lineSpacingExtra="5dp" />
+            </LinearLayout>
+            <View android:background="#c1c0c0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="12dp" android:layout_marginTop="25dp" android:layout_marginBottom="25dp" />
+            <LinearLayout android:orientation="vertical" android:id="@+id/common_problem2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+                <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/questions_tv5" />
+                <TextView android:textColor="#686868" android:id="@+id/tv_solvep3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/questions_tv6" android:lineSpacingExtra="5dp" />
+            </LinearLayout>
+            <View android:background="#c1c0c0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="12dp" android:layout_marginTop="25dp" android:layout_marginBottom="25dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+                <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/questions_tv7" />
+                <TextView android:textColor="#686868" android:id="@+id/tv_solvep4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/questions_tv8" android:lineSpacingExtra="5dp" />
+            </LinearLayout>
+            <View android:background="#c1c0c0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="12dp" android:layout_marginTop="25dp" android:layout_marginBottom="25dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+                <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/questions_tv9" />
+                <TextView android:textColor="#686868" android:id="@+id/tv_solvep5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/questions_tv10" android:lineSpacingExtra="5dp" />
+            </LinearLayout>
+            <View android:background="#c1c0c0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="12dp" android:layout_marginTop="25dp" android:layout_marginBottom="25dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+                <TextView android:textSize="18sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/steps_largen_question" />
+                <TextView android:textColor="#686868" android:id="@+id/tv_solvep6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/steps_largen_anwser" android:lineSpacingExtra="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/info_scroll_view" android:background="@color/divider_large_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_height="UNKNOWN_DATA_0x1401" style="@style/DividerLargeView" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/btn_edit_photo" android:background="@drawable/setting_item_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4801" android:onClick="onClick">
+            <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_marginLeft="@dimen/setting_list_left_margin" android:text="@string/userinfo_photo" android:layout_weight="1.0" style="@style/SettingItemTitleTextView" />
+            <com.zhuoyou.plugin.running.view.CircleImageView android:id="@+id/img_photo" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:src="@drawable/default_photo" android:scaleType="centerCrop" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="@dimen/setting_list_right_margin" android:src="@drawable/setting_right_arrow" />
+        </LinearLayout>
+        <View style="@style/SettingDividerView" />
+        <LinearLayout android:id="@+id/btn_edit_nickname" android:onClick="onClick" style="@style/SettingItemLayout">
+            <TextView android:text="@string/userinfo_nickname" style="@style/SettingItemTitleTextView" />
+            <TextView android:id="@+id/tv_nickname" android:hint="@string/userinfo_nickname" style="@style/SettingValueTextViewWithArrow" />
+        </LinearLayout>
+        <View style="@style/SettingDividerView" />
+        <LinearLayout android:id="@+id/btn_edit_signature" android:onClick="onClick" style="@style/SettingItemLayout">
+            <TextView android:text="@string/userinfo_signature" style="@style/SettingItemTitleTextView" />
+            <TextView android:id="@+id/tv_signature" android:hint="@string/userinfo_signature_hint" style="@style/SettingValueTextViewWithArrow" />
+        </LinearLayout>
+        <View android:layout_height="UNKNOWN_DATA_0x1001" style="@style/DividerLargeView" />
+        <LinearLayout android:id="@+id/btn_edit_sex" android:paddingRight="@dimen/setting_list_right_margin" style="@style/SettingItemLayout">
+            <TextView android:layout_width="UNKNOWN_DATA_0x1" android:text="@string/userinfo_sex" android:layout_weight="1.0" style="@style/SettingItemTitleTextView" />
+            <ImageView android:id="@+id/img_male" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/ic_male" android:scaleType="centerInside" android:onClick="onClick" />
+            <ImageView android:id="@+id/img_female" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_female" android:scaleType="centerInside" android:onClick="onClick" />
+        </LinearLayout>
+        <View style="@style/SettingDividerView" />
+        <LinearLayout android:id="@+id/btn_edit_birthday" android:onClick="onClick" style="@style/SettingItemLayout">
+            <TextView android:text="@string/userinfo_birthday" style="@style/SettingItemTitleTextView" />
+            <TextView android:id="@+id/tv_birthday" android:text="1998-01-01" style="@style/SettingValueTextViewWithArrow" />
+        </LinearLayout>
+        <View style="@style/SettingDividerView" />
+        <LinearLayout android:id="@+id/btn_edit_height" android:onClick="onClick" style="@style/SettingItemLayout">
+            <TextView android:text="@string/userinfo_height" style="@style/SettingItemTitleTextView" />
+            <TextView android:id="@+id/tv_height" android:text="180cm" style="@style/SettingValueTextViewWithArrow" />
+        </LinearLayout>
+        <View style="@style/SettingDividerView" />
+        <LinearLayout android:id="@+id/btn_edit_weight" android:onClick="onClick" style="@style/SettingItemLayout">
+            <TextView android:text="@string/userinfo_weight" style="@style/SettingItemTitleTextView" />
+            <TextView android:id="@+id/tv_weight" android:text="74kg" style="@style/SettingValueTextViewWithArrow" />
+        </LinearLayout>
+        <View android:layout_height="UNKNOWN_DATA_0x1001" style="@style/DividerLargeView" />
+        <LinearLayout android:id="@+id/btn_edit_location" android:onClick="onClick" style="@style/SettingItemLayout">
+            <TextView android:text="@string/userinfo_location" style="@style/SettingItemTitleTextView" />
+            <TextView android:id="@+id/tv_location" android:text="" android:hint="@string/userinfo_input_location" style="@style/SettingValueTextViewWithArrow" />
+        </LinearLayout>
+        <View android:visibility="gone" android:layout_height="UNKNOWN_DATA_0x1401" style="@style/DividerLargeView" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/btn_edit_bkphoto" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4801" android:onClick="onClick">
+            <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_marginLeft="@dimen/setting_list_left_margin" android:text="@string/userinfo_bkphoto" android:layout_weight="1.0" style="@style/SettingItemTitleTextView" />
+            <ImageView android:id="@+id/img_bkphoto" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:src="@drawable/default_photo" android:scaleType="centerInside" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="@dimen/setting_list_right_margin" android:src="@drawable/setting_right_arrow" />
+        </LinearLayout>
+        <View android:layout_height="UNKNOWN_DATA_0x1001" style="@style/DividerLargeView" />
+        <LinearLayout android:id="@+id/btn_edit_account" android:onClick="onClick" style="@style/SettingItemLayout">
+            <TextView android:text="@string/userinfo_account" style="@style/SettingItemTitleTextView" />
+            <TextView android:id="@+id/tv_account" style="@style/SettingValueTextViewWithArrow" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/divider_large_color" android:paddingTop="40dp" android:paddingBottom="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="14dp" android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_logout" android:background="@drawable/button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_setting_logout" android:onClick="onClick" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

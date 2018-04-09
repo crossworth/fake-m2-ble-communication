@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/screenshot" android:background="0x106000b" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="#41366f" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10401">
+                <TextView android:textSize="24sp" android:textColor="@color/white" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yesterday_sleep" />
+                <LinearLayout android:orientation="horizontal" android:id="@+id/sleep_duration" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="40sp" android:textColor="@color/white" android:id="@+id/sleep_duration_hour" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" />
+                    <TextView android:textSize="40sp" android:textColor="#c2bae1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hour" />
+                    <TextView android:textSize="40sp" android:textColor="@color/white" android:id="@+id/sleep_duration_min" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="26" />
+                    <TextView android:textSize="40sp" android:textColor="#c2bae1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minute" />
+                </LinearLayout>
+                <TextView android:textSize="20sp" android:textColor="@color/white" android:id="@+id/sleep_date" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3月30日" />
+                <ImageView android:background="#eeeeee" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginTop="30dp" />
+            </LinearLayout>
+            <RelativeLayout android:id="@+id/user_logo_lay" android:background="@drawable/sleep_head_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/user_logo" android:background="@drawable/sleep_shar_head" android:layout_width="UNKNOWN_DATA_0x4801" android:layout_height="UNKNOWN_DATA_0x4801" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="16sp" android:textColor="#777676" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/user_name" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="None" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="30dp">
+                <TextView android:textSize="20sp" android:textColor="#838282" android:id="@+id/sleep_deeptime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="深睡0小时0分，浅睡0小时0分" />
+                <TextView android:textSize="20sp" android:textColor="#838282" android:id="@+id/sleep_wakesleep_time" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="入睡00:00，醒来00:00" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom" android:background="#f9fbfc" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/orange_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+            <ImageView android:id="@+id/share_weixin" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/sns_icon_facebook" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/share_quan" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/sns_icon_twitter" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/share_qq" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/sns_icon_whatsapp" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/share_more" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/sns_icon_instagram" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/back" android:background="#41366f" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/back_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:src="@drawable/actionbar_back" android:layout_centerVertical="true" android:onClick="onClick" />
+        <TextView android:textSize="21sp" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:text="@string/action_menu_share" android:layout_toRightOf="@+id/back_m" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

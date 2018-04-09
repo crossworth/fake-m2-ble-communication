@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f4f3f3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/running_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" layout="@layout/running_actionbar" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/llayout_walk" android:background="@drawable/walk_tv_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3e01" android:layout_marginLeft="37dp" android:layout_marginTop="39dp" android:layout_marginRight="37dp">
+        <TextView android:textSize="20sp" android:textColor="#fefefe" android:id="@+id/tv_walk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/walk_primary_plan" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/llayout_primary_run" android:background="@drawable/primary_run_tv_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3e01" android:layout_marginLeft="37dp" android:layout_marginTop="24dp" android:layout_marginRight="37dp">
+        <TextView android:textSize="20sp" android:textColor="#fefefe" android:id="@+id/tv_primary_run" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/run_primary_plan" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/llayout_advance_run" android:background="@drawable/advance_run_tv_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3e01" android:layout_marginLeft="37dp" android:layout_marginTop="24dp" android:layout_marginRight="37dp">
+        <TextView android:textSize="20sp" android:textColor="#fefefe" android:id="@+id/tv_advance_run" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/run_advance_plan" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/llayout_first_5km" android:background="@drawable/first_5km_tv_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3e01" android:layout_marginLeft="37dp" android:layout_marginTop="24dp" android:layout_marginRight="37dp">
+        <TextView android:textSize="20sp" android:textColor="#fefefe" android:id="@+id/tv_first_5km" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_five_km" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/llayout_beyond_marathon" android:background="@drawable/beyond_marathon_tv_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3e01" android:layout_marginLeft="37dp" android:layout_marginTop="24dp" android:layout_marginRight="37dp">
+        <TextView android:textSize="20sp" android:textColor="#fefefe" android:id="@+id/tv_beyond_marathon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beyond_marathon" />
+    </LinearLayout>
+</LinearLayout>

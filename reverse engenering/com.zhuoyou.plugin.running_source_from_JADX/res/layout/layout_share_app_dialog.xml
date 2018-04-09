@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x8c01">
+    <TextView android:textSize="14dp" android:textColor="#2a2a2a" android:id="@+id/song_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="14dp" android:text="@string/about_share" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <ImageView android:id="@+id/share_facebook" android:src="@drawable/sh_facebook_blue_selector" style="@style/ShareItemButton" />
+        <ImageView android:id="@+id/share_twitter" android:src="@drawable/sh_twitter_blue_selector" style="@style/ShareItemButton" />
+        <ImageView android:id="@+id/share_instagram" android:src="@drawable/sh_instagram_blue_selector" style="@style/ShareItemButton" />
+        <ImageView android:id="@+id/share_whatsapp" android:src="@drawable/sh_whatsapp_blue_selector" style="@style/ShareItemButton" />
+        <ImageView android:id="@+id/share_qq" android:src="@drawable/sh_qq_blue_selector" style="@style/ShareItemButton" />
+        <ImageView android:id="@+id/share_qzone" android:src="@drawable/sh_qzone_blue_selector" style="@style/ShareItemButton" />
+        <ImageView android:id="@+id/share_weixin" android:src="@drawable/sh_wechat_blue_selector" style="@style/ShareItemButton" />
+        <ImageView android:id="@+id/share_friend_circle" android:src="@drawable/sh_moments_blue_selector" style="@style/ShareItemButton" />
+        <ImageView android:id="@+id/share_weibo" android:src="@drawable/sh_weibo_blue_selector" style="@style/ShareItemButton" />
+    </LinearLayout>
+</LinearLayout>

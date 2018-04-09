@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_1" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_2" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_3" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_4" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_5" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_6" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_7" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_8" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_9" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_10" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_11" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_12" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_13" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_14" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_15" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_16" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_17" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_18" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_19" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_20" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_21" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_22" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_23" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_24" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_25" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_26" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_27" />
+    <item android:duration="@integer/splash_anim_fram_duration" android:drawable="@drawable/splash_28" />
+</animation-list>

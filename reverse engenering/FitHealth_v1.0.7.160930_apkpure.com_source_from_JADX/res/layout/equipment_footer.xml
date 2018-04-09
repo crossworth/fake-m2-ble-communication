@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f4f3f3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+    <TextView android:textSize="12sp" android:textColor="@color/water_string_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:text="@string/not_found_equip" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/more_equip" android:background="@color/white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4101" android:layout_marginTop="5dp"
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:layout_weight="1.0">
+            <TextView android:textSize="18sp" android:textColor="#000000" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more_equip" />
+            <TextView android:textSize="14sp" android:textColor="@color/water_string_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/more_sys_bluetooth" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/arrow_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" />
+    </LinearLayout>
+</LinearLayout>

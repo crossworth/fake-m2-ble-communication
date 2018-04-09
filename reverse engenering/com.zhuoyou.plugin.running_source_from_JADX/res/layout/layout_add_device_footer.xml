@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_device_count" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:text="@string/bt_not_found_device" />
+    <LinearLayout android:id="@+id/layout_more_device" android:visibility="gone" android:onClick="onClick" style="@style/SettingItemLayoutLarge"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:text="@string/bt_more_device" style="@style/SettingItemTitleTextView" />
+            <TextView android:text="@string/bt_more_sys_bluetooth" style="@style/SettingItemDetailTextView" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_right_arrow" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layout_help" android:onClick="onClick" style="@style/SettingItemLayoutLarge"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:text="@string/bt_user_help" style="@style/SettingItemTitleTextView" />
+            <TextView android:text="@string/bt_question_ask" style="@style/SettingItemDetailTextView" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_right_arrow" />
+    </LinearLayout>
+</LinearLayout>

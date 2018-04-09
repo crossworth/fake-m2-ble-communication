@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" myactionbar:orientation="vertical" myactionbar:background="#eaeef0" myactionbar:layout_width="match_parent" myactionbar:layout_height="match_parent">
+    <RelativeLayout myactionbar:gravity="top|bottom|center_vertical|fill_vertical|center|fill" myactionbar:id="@+id/back" myactionbar:background="@color/discover_title_color" myactionbar:layout_width="match_parent" myactionbar:layout_height="UNKNOWN_DATA_0x3001" myactionbar:onClick="onClick">
+        <ImageView myactionbar:id="@+id/back_m" myactionbar:layout_width="wrap_content" myactionbar:layout_height="wrap_content" myactionbar:layout_marginLeft="8dp" myactionbar:src="@drawable/actionbar_back" myactionbar:layout_centerVertical="true" myactionbar:onClick="onClick" />
+        <TextView myactionbar:textSize="21dp" myactionbar:textColor="@color/white" myactionbar:id="@id/title" myactionbar:layout_width="wrap_content" myactionbar:layout_height="wrap_content" myactionbar:layout_marginLeft="1dp" myactionbar:text="@string/sedentary_remind" myactionbar:layout_toRightOf="@+id/back_m" myactionbar:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView myactionbar:textSize="12sp" myactionbar:gravity="top|bottom|center_vertical|fill_vertical|center|fill" myactionbar:paddingLeft="24dp" myactionbar:layout_width="match_parent" myactionbar:layout_height="UNKNOWN_DATA_0x2401" myactionbar:text="@string/sedentary_remind_toast1" />
+    <RelativeLayout myactionbar:orientation="horizontal" myactionbar:id="@+id/sedentary_lv" myactionbar:background="@drawable/list_background1" myactionbar:layout_width="match_parent" myactionbar:layout_height="UNKNOWN_DATA_0x3c01">
+        <TextView myactionbar:textSize="18sp" myactionbar:textColor="#444444" myactionbar:gravity="top|bottom|center_vertical|fill_vertical|center|fill" myactionbar:layout_width="wrap_content" myactionbar:layout_height="UNKNOWN_DATA_0x3c01" myactionbar:layout_marginLeft="24dp" myactionbar:text="@string/sedentary_remind" />
+        <ImageView myactionbar:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" myactionbar:id="@+id/is_enable" myactionbar:background="@drawable/alarm_button_closeoff" myactionbar:layout_width="wrap_content" myactionbar:layout_height="wrap_content" myactionbar:layout_marginRight="24dp" myactionbar:layout_centerVertical="true" myactionbar:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

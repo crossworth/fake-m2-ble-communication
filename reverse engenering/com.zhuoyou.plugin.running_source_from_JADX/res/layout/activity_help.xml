@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/divider_large_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar android:id="@+id/actionbar" android:custom_back_title="@string/actionbar_title_help" style="@style/DefaultActionBar" />
+    <ScrollView android:id="@+id/share_content" android:background="@color/divider_large_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <View android:layout_height="UNKNOWN_DATA_0x1401" style="@style/DividerLargeView" />
+            <TextView android:id="@+id/mine_item_help1" android:text="@string/help_item1_title" android:onClick="onClick" style="@style/SettingTitleTextViewWithArrow" />
+            <RelativeLayout android:id="@+id/mine_item_help1_body" style="@style/MineItemHelpBody">
+                <TextView android:id="@+id/tv_item1_head1" android:text="@string/help_content1" style="@style/MineItemHelpBoldText" />
+                <TextView android:layout_marginLeft="@dimen/help_phone_limit_left" android:text="@string/help_content3" android:layout_toRightOf="@+id/tv_item1_head1" android:layout_alignTop="@+id/tv_item1_head1" style="@style/MineItemHelpLightText" />
+                <TextView android:id="@+id/tv_item1_content1" android:text="@string/help_content5" android:layout_below="@+id/tv_item1_head1" style="@style/MineItemHelpLightText" />
+                <TextView android:id="@+id/tv_item1_head2" android:text="@string/help_content2" android:layout_below="@+id/tv_item1_content1" style="@style/MineItemHelpBoldText" />
+                <TextView android:layout_marginLeft="@dimen/help_phone_limit_left" android:text="@string/help_content4" android:layout_toRightOf="@+id/tv_item1_head2" android:layout_alignTop="@+id/tv_item1_head2" style="@style/MineItemHelpLightText" />
+                <TextView android:id="@+id/tv_item1_content2" android:text="@string/help_content6" android:layout_below="@+id/tv_item1_head2" style="@style/MineItemHelpLightText" />
+            </RelativeLayout>
+            <View style="@style/SettingDividerView" />
+            <TextView android:id="@+id/mine_item_help2" android:text="@string/question_title" android:onClick="onClick" style="@style/SettingTitleTextViewWithArrow" />
+            <LinearLayout android:id="@+id/mine_item_help2_body" android:visibility="visible" style="@style/MineItemHelpBody">
+                <TextView android:text="@string/question_title1" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer1" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title2" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer2" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title3" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer3" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title4" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer4" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title5" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer5" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title6" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer6" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title7" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer7" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title8" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer8" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title9" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer9" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title10" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer10" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title11" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer11" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title12" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer12" style="@style/MineItemHelpLightText" />
+                <TextView android:text="@string/question_title13" style="@style/MineItemHelpBoldText" />
+                <TextView android:text="@string/question_answer13" style="@style/MineItemHelpLightText" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

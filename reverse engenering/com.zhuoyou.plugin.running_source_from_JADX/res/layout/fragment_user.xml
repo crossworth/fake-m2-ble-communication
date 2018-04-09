@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:orientation="vertical" wheel:background="@color/main_style_background" wheel:layout_width="match_parent" wheel:layout_height="match_parent">
+    <FrameLayout wheel:background="@color/background_color_main" wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x7f0a008d">
+        <ImageView wheel:id="@+id/img_back" wheel:layout_width="match_parent" wheel:layout_height="match_parent" wheel:scaleType="centerCrop" />
+        <LinearLayout wheel:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" wheel:orientation="vertical" wheel:layout_width="match_parent" wheel:layout_height="match_parent">
+            <com.zhuoyou.plugin.running.view.CircleImageView wheel:id="@+id/img_photo" wheel:layout_width="UNKNOWN_DATA_0x5001" wheel:layout_height="UNKNOWN_DATA_0x5001" wheel:layout_marginTop="54dp" wheel:src="@drawable/default_photo" wheel:border_width="1dp" wheel:border_color="#80ffffff" />
+            <TextView wheel:textSize="16dp" wheel:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@+id/tv_usrname" wheel:paddingTop="20dp" wheel:clickable="true" wheel:hint="@string/userinfo_nickname" wheel:maxLines="1" style="@style/ShadowStyleTextView" />
+            <LinearLayout wheel:gravity="top|bottom|center_vertical|fill_vertical|center|fill" wheel:id="@+id/btn_history" wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x1" wheel:layout_marginTop="10dp" wheel:layout_weight="1.0"
+                <LinearLayout style="@style/MineSportInfoLayout">
+                    <com.zhuoyou.plugin.running.view.AnimTextView wheel:id="@+id/tv_daily_steps" wheel:text="0" style="@style/MineSportInfoValue" />
+                    <TextView wheel:text="@string/mine_daily_steps" style="@style/MineSportInfoTitle" />
+                </LinearLayout>
+                <View wheel:background="0x106000b" wheel:layout_width="UNKNOWN_DATA_0x100" wheel:layout_height="UNKNOWN_DATA_0x3001" />
+                <LinearLayout style="@style/MineSportInfoLayout">
+                    <com.zhuoyou.plugin.running.view.AnimTextView wheel:id="@+id/tv_total_distance" wheel:text="0.00" style="@style/MineSportInfoValue" />
+                    <TextView wheel:text="@string/mine_total_distence" style="@style/MineSportInfoTitle" />
+                </LinearLayout>
+                <View wheel:background="0x106000b" wheel:layout_width="UNKNOWN_DATA_0x100" wheel:layout_height="UNKNOWN_DATA_0x3001" />
+                <LinearLayout style="@style/MineSportInfoLayout">
+                    <com.zhuoyou.plugin.running.view.AnimTextView wheel:id="@+id/tv_achieve_days" wheel:text="0" style="@style/MineSportInfoValue" />
+                    <TextView wheel:text="@string/mine_achieve_days" style="@style/MineSportInfoTitle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.zhuoyou.plugin.running.view.ProgressWheel wheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" wheel:id="@+id/progress_wheel" wheel:visibility="gone" wheel:layout_width="UNKNOWN_DATA_0x1901" wheel:layout_height="UNKNOWN_DATA_0x1901" wheel:layout_marginLeft="15dp" wheel:layout_marginTop="30dp" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="0x106000b" wheel:matProg_barWidth="2dp" />
+    </FrameLayout>
+    <include layout="@layout/scrollview_mine" />
+</LinearLayout>

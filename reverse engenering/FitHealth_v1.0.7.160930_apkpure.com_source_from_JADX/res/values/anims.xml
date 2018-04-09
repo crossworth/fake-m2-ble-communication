@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="abc_fade_in">res/anim/abc_fade_in.xml</anim>
+    <anim name="abc_fade_out">res/anim/abc_fade_out.xml</anim>
+    <anim name="abc_grow_fade_in_from_bottom">res/anim/abc_grow_fade_in_from_bottom.xml</anim>
+    <anim name="abc_popup_enter">res/anim/abc_popup_enter.xml</anim>
+    <anim name="abc_popup_exit">res/anim/abc_popup_exit.xml</anim>
+    <anim name="abc_shrink_fade_out_from_bottom">res/anim/abc_shrink_fade_out_from_bottom.xml</anim>
+    <anim name="abc_slide_in_bottom">res/anim/abc_slide_in_bottom.xml</anim>
+    <anim name="abc_slide_in_top">res/anim/abc_slide_in_top.xml</anim>
+    <anim name="abc_slide_out_bottom">res/anim/abc_slide_out_bottom.xml</anim>
+    <anim name="abc_slide_out_top">res/anim/abc_slide_out_top.xml</anim>
+    <anim name="add_card_backgroud_image">res/anim/add_card_backgroud_image.xml</anim>
+    <anim name="count_down_exit">res/anim/count_down_exit.xml</anim>
+    <anim name="dialog_bottom_scale_dismiss">res/anim/dialog_bottom_scale_dismiss.xml</anim>
+    <anim name="dialog_bottom_scale_show">res/anim/dialog_bottom_scale_show.xml</anim>
+    <anim name="fade_in">res/anim/fade_in.xml</anim>
+    <anim name="fade_out">res/anim/fade_out.xml</anim>
+    <anim name="firmware_update_ani">res/anim/firmware_update_ani.xml</anim>
+    <anim name="in_from_left">res/anim/in_from_left.xml</anim>
+    <anim name="in_from_right">res/anim/in_from_right.xml</anim>
+    <anim name="inputodown">res/anim/inputodown.xml</anim>
+    <anim name="out_to_left">res/anim/out_to_left.xml</anim>
+    <anim name="out_to_right">res/anim/out_to_right.xml</anim>
+    <anim name="popup_enter">res/anim/popup_enter.xml</anim>
+    <anim name="popup_exit">res/anim/popup_exit.xml</anim>
+    <anim name="pull_arrow_down">res/anim/pull_arrow_down.xml</anim>
+    <anim name="pull_arrow_up">res/anim/pull_arrow_up.xml</anim>
+    <anim name="search_devices_ani">res/anim/search_devices_ani.xml</anim>
+    <anim name="umeng_socialize_fade_in">res/anim/umeng_socialize_fade_in.xml</anim>
+    <anim name="umeng_socialize_fade_out">res/anim/umeng_socialize_fade_out.xml</anim>
+    <anim name="umeng_socialize_shareboard_animation_in">res/anim/umeng_socialize_shareboard_animation_in.xml</anim>
+    <anim name="umeng_socialize_shareboard_animation_out">res/anim/umeng_socialize_shareboard_animation_out.xml</anim>
+    <anim name="umeng_socialize_slide_in_from_bottom">res/anim/umeng_socialize_slide_in_from_bottom.xml</anim>
+    <anim name="umeng_socialize_slide_out_from_bottom">res/anim/umeng_socialize_slide_out_from_bottom.xml</anim>
+    <anim name="update_loading_progressbar_anim">res/anim/update_loading_progressbar_anim.xml</anim>
+</resources>

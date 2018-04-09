@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ad_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/netshow" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_alignParentTop="true" android:onClick="onClick" />
+    <TextView android:textSize="25sp" android:id="@+id/action_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="300dp" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20sp" android:id="@+id/action_time" android:paddingTop="20dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/action_title" />
+    <TextView android:textSize="20sp" android:id="@+id/button_query" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40dp" android:text="点击查看 >>>" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="onClick" />
+</RelativeLayout>

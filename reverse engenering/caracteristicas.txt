@@ -1,0 +1,20 @@
+Heart: 6e400009-b5a3-f393-e0a9-e50e24dcca9e
+
+Characteristic found: 2a00
+Characteristic found: 2a01
+Characteristic found: 2a04
+Characteristic found: 2a19
+Characteristic found: 6e400003b5a3f393e0a9e50e24dcca9e
+Characteristic found: 6e400004b5a3f393e0a9e50e24dcca9e
+Characteristic found: 2a27
+Characteristic found: 2a26
+Characteristic found: 2a60
+Characteristic found: 2a61
+Characteristic found: 6e400002b5a3f393e0a9e50e24dcca9e
+Characteristic found: 6e400003b5a3f393e0a9e50e24dcca9e
+Characteristic found: 6e400004b5a3f393e0a9e50e24dcca9e
+Characteristic found: 6e400006b5a3f393e0a9e50e24dcca9e
+Characteristic found: 6e400005b5a3f393e0a9e50e24dcca9e
+Characteristic found: 6e400007b5a3f393e0a9e50e24dcca9e
+Characteristic found: 6e400011b5a3f393e0a9e50e24dcca9e
+Characteristic found: 2a5f

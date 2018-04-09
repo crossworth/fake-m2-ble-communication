@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="10dp" android:textColor="#b5b5b5" android:id="@+id/just" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/just" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@+id/summay_lay" android:background="@drawable/listitem_summay_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/just">
+        <ImageView android:id="@+id/item_run_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+        <TextView android:textSize="13dp" android:textColor="#7a7a7a" android:id="@+id/description" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/item_run_logo" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:id="@+id/framelayout" app:background="@color/color2" app:layout_width="match_parent" app:layout_height="match_parent">
+        <com.zhuoyou.plugin.view.ViewFlow app:id="@+id/viewflow" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="@color/color3" app:padding="3dp" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <com.zhuoyou.plugin.view.CircleFlowIndicator app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/viewflowindic" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="10dp" app:activeColor="@color/color2" app:inactiveColor="@color/color4" app:radius="4dp" app:inactiveType="1" app:activeType="1" app:circleSeparation="20dp" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

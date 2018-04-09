@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/age_lay" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="onClick">
+        <TextView android:textSize="@dimen/Guider_list_text_size" android:textColor="@color/Guider_list_text_color" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="@dimen/personal_list_left" android:text="@string/age" />
+        <TextView android:textSize="@dimen/Guider_list_text_size" android:textColor="@color/orange_color" android:id="@+id/age_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/personal_list_left" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/show_age_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801">
+        <com.zhuoyou.plugin.view.NumberPickerView android:id="@+id/age_pickerview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:background="@color/persion_info_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="@dimen/personal_list_left" android:layout_marginRight="@dimen/personal_list_left" />
+    <RelativeLayout android:id="@+id/height_lay" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="onClick">
+        <TextView android:textSize="@dimen/Guider_list_text_size" android:textColor="@color/Guider_list_text_color" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="@dimen/personal_list_left" android:text="@string/height" />
+        <TextView android:textSize="@dimen/Guider_list_text_size" android:textColor="@color/orange_color" android:id="@+id/height_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/personal_list_left" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/show_height_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801">
+        <com.zhuoyou.plugin.view.NumberPickerView android:id="@+id/height_pickerview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:background="@color/persion_info_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="@dimen/personal_list_left" android:layout_marginRight="@dimen/personal_list_left" />
+    <RelativeLayout android:id="@+id/weight_lay" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="onClick">
+        <TextView android:textSize="@dimen/Guider_list_text_size" android:textColor="@color/Guider_list_text_color" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="@dimen/personal_list_left" android:text="@string/weight" />
+        <TextView android:textSize="@dimen/Guider_list_text_size" android:textColor="@color/orange_color" android:id="@+id/weight_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/personal_list_left" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/weight_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="0dp">
+            <com.zhuoyou.plugin.view.FloatPickerView android:id="@+id/weight_pickerview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

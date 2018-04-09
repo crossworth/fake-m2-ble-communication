@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@id/dp_notify_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="match_parent">
+            <ImageView android:id="@id/dp_download_icon" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="3.0" />
+            <TextView android:textAppearance="@style/dp_notification_title_style" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/dp_download_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/dp_progress_group" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/dp_download_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="0%" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    <ProgressBar android:id="@id/dp_download_progressbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xf01" android:layout_toLeftOf="@id/dp_download_progress" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010078" />
+                </RelativeLayout>
+                <TextView android:textAppearance="@style/dp_notification_summary_style" android:ellipsize="end" android:id="@id/dp_download_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </FrameLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="3.0" /> /> />
+</RelativeLayout>

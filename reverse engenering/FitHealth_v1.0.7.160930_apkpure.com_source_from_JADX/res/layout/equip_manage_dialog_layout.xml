@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/equip_manage" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="#f47424" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout android:id="@+id/back" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:onClick="onClick">
+            <ImageView android:id="@+id/back_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_back" android:layout_centerVertical="true" />
+            <TextView android:textSize="21dp" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:text="@string/equip_manager" android:layout_toRightOf="@+id/back_m" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <Button android:textSize="@dimen/text_18" android:textStyle="UNKNOWN_DATA_0x0" android:textColor="0x106000b" android:id="@+id/edit" android:background="#00000000" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="17dp" android:text="@string/bt_edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/searching" android:background="@drawable/botton_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2d01" android:layout_marginLeft="13dp" android:layout_marginTop="20dp" android:layout_marginRight="13dp">
+        <LinearLayout android:id="@+id/searching_bluetooth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:src="@drawable/searching_bluetooth" />
+            <TextView android:textSize="18sp" android:textColor="#ffffff" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/add_device_activity" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="14sp" android:textColor="#c1c0c0" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/connted" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="16dp" android:text="@string/currently_connected_device" />
+    <RelativeLayout android:id="@+id/device_layout" android:background="@drawable/device_layout_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4b01" android:layout_marginLeft="13dp" android:layout_marginRight="13dp">
+        <ImageView android:id="@+id/device_logo" android:layout_width="UNKNOWN_DATA_0x4b01" android:layout_height="match_parent" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/device_logo" android:layout_centerVertical="true">
+            <TextView android:textSize="16sp" android:textColor="#1d0101" android:id="@+id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12sp" android:textColor="#99a0a7" android:id="@+id/device_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/device_name" />
+            <ImageView android:id="@+id/device_battery_img_add" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.5dp" android:layout_toRightOf="@+id/device_battery" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/details_layout" android:background="#f47424" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <ImageView android:id="@+id/details" android:background="@drawable/manager_point" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/remove_layout" android:background="#f47424" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <ImageView android:id="@+id/remove" android:background="@drawable/delete" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="14sp" android:textColor="#c1c0c0" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/bonded" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="16dp" android:text="@string/connect_device_records" />
+    <ListView android:id="@+id/device_list" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="#00000000" android:dividerHeight="15dp" />
+</LinearLayout>

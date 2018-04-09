@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/mybutton" android:background="@drawable/tab_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0900b5"
+    <LinearLayout android:id="@+id/home_layout" style="@style/main_bottom_bar_linear">
+        <ImageView android:id="@+id/home_image" style="@style/main_bottom_bar_image" />
+        <TextView android:id="@+id/home_text" android:text="@string/homepage" style="@style/main_bottom_bar_text" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/order_layout" style="@style/main_bottom_bar_linear">
+        <ImageView android:id="@+id/order_image" style="@style/main_bottom_bar_image" />
+        <TextView android:id="@+id/order_text" android:text="@string/my_ranking" style="@style/main_bottom_bar_text" />
+    </LinearLayout>
+    <RelativeLayout android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0900b5" android:layout_weight="1.0" android:onClick="onClick" />
+    <LinearLayout android:id="@+id/finder_layout" style="@style/main_bottom_bar_linear">
+        <ImageView android:id="@+id/finder_image" style="@style/main_bottom_bar_image" />
+        <TextView android:id="@+id/finder_text" android:text="@string/finder" style="@style/main_bottom_bar_text" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/mine_layout" style="@style/main_bottom_bar_linear">
+        <ImageView android:id="@+id/mine_image" style="@style/main_bottom_bar_image" />
+        <TextView android:id="@+id/mine_text" android:text="@string/mine" style="@style/main_bottom_bar_text" />
+    </LinearLayout>
+</LinearLayout>

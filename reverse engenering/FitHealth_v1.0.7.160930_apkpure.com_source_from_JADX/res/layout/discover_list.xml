@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f4f3f3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/discover_fitness" android:background="#ffffff" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2d01" android:onClick="onClick">
+        <TextView android:textSize="15dp" android:textColor="#5e5b5a" android:id="@+id/fitness_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="@string/discover_fitness" android:layout_centerVertical="true" />
+        <ImageView android:background="@drawable/discover_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/discover_circle" android:background="#ffffff" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2d01" android:layout_marginTop="10dp" android:onClick="onClick">
+        <TextView android:textSize="15dp" android:textColor="@color/discover_list_main_text_color" android:id="@+id/circle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="@string/discover_circle" android:layout_centerVertical="true" />
+        <ImageView android:background="@drawable/discover_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

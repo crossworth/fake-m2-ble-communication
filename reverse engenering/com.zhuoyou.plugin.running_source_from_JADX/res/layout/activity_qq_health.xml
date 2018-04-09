@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@+id/activity_share" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar app:custom_back_title="@string/qq_health_bind_title" style="@style/DefaultActionBar" />
+    <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="20dp" app:src="@drawable/qq_logo" />
+    <TextView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="10dp" app:text="@string/qq_health_tips" />
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:paddingLeft="20dp" app:paddingRight="20dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4601" app:layout_marginTop="50dp"
+        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+            <TextView app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/qq_bind_account" />
+            <TextView app:id="@+id/tv_user_name" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/unknow" />
+        </LinearLayout>
+        <TextView app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/btn_unbund" app:background="@drawable/alarmclock_button_pressed" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/qq_health_unbundle_button" app:onClick="onClick" />
+    </LinearLayout>
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:paddingLeft="20dp" app:paddingRight="20dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4601"
+        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+            <TextView app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/qq_health_last_update_time" />
+            <TextView app:id="@+id/tv_last_time" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/unknow" />
+        </LinearLayout>
+        <TextView app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/btn_upload" app:background="@drawable/alarmclock_button_pressed" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/qq_health_update_button" app:onClick="onClick" />
+    </LinearLayout>
+    <TextView app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/btn_to_qq" app:background="@drawable/button" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="20dp" app:text="@string/qq_health_jump" app:onClick="onClick" />
+</LinearLayout>

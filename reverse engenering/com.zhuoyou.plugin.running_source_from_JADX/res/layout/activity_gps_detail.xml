@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" android:animateLayoutChanges="true">
+        <com.baidu.mapapi.map.MapView android:id="@+id/map" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.zhuoyou.plugin.running.view.TouchImageView android:id="@+id/img_locus" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+        <com.zhuoyou.plugin.running.view.MyActionBar android:id="@+id/actionbar" android:background="@color/gps_map_mode_title_color" android:right_button_src="@drawable/ic_share" android:custom_back_title="@string/actionbar_title_run_detail" style="@style/DefaultActionBar" />
+        <ImageView android:id="@+id/btn_zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:src="@drawable/gps_zoomout" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="onClick" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/sport_data_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4201">
+            <TextView android:textSize="40dp" android:textColor="@color/background_color_main" android:id="@+id/tv_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.00" android:layout_centerInParent="true" />
+            <TextView android:textSize="14dp" android:textColor="@color/background_color_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="km" android:layout_toRightOf="@+id/tv_distance" android:layout_alignBaseline="@+id/tv_distance" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:baselineAligned="false"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@+id/tv_duration" android:text="00:00:00" android:drawableTop="@drawable/gps_time" style="@style/GpsSportDataValue" />
+                <TextView android:id="@+id/tv_cal" android:layout_marginTop="18dp" android:text="23" android:drawableTop="@drawable/gps_cal" style="@style/GpsSportDataValue" />
+            </LinearLayout>
+            <View android:background="@color/background_color_main" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x6401" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@+id/tv_speed" android:text="0'0''" android:drawableTop="@drawable/gps_speed" style="@style/GpsSportDataValue" />
+                <TextView android:id="@+id/tv_heart" android:layout_marginTop="18dp" android:text="--" android:drawableTop="@drawable/gps_heart_rate" style="@style/GpsSportDataValue" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@style/DividerView" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0058">
+        <TextView android:id="@+id/btn_delete" android:text="@string/gps_detail_delete" android:drawableTop="@drawable/ic_delete" android:layout_weight="1.0" android:onClick="onClick" style="@style/BootomButtonWithDrawableTop" />
+        <TextView android:id="@+id/btn_sync" android:visibility="gone" android:text="上传" android:drawableTop="@drawable/ic_renew" android:layout_weight="1.0" android:onClick="onClick" style="@style/BootomButtonWithDrawableTop" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f4f3f3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/back" android:background="@color/discover_title_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <ImageView android:id="@+id/back_m" android:paddingLeft="@dimen/magin_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_back" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_20" android:textColor="@color/white" android:id="@id/title" android:paddingLeft="@dimen/magin_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_action" android:layout_toRightOf="@+id/back_m" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_20" android:textColor="@color/white" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/join_action" android:paddingRight="@dimen/magin_5" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/discover_title_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601"
+        <LinearLayout android:orientation="horizontal" android:background="@color/discover_title_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2501">
+            <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/intro" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/running_action_intro" android:layout_weight="1.0" />
+            <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rule" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/running_action_rule" android:layout_weight="1.0" />
+            <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rank" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/running_action_rank" android:layout_weight="1.0" />
+            <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/notice" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/running_action_notice" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:id="@+id/cursor" android:background="@color/discover_title_color" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="matrix" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:id="@+id/viewPager" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f4f3f3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/back" android:background="@color/discover_title_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <ImageView android:id="@+id/bt_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:src="@drawable/actionbar_back" android:layout_centerVertical="true" />
+        <TextView android:textSize="21dp" android:textColor="@color/white" android:id="@+id/bt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:text="@string/app_name" android:layout_toRightOf="@+id/bt_back" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/ani_device" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" />
+    </RelativeLayout>
+    <TextView android:textColor="#7a7a7a" android:id="@+id/num_devices" android:background="0x0" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:layout_marginTop="3dp" android:onClick="onClick" />
+    <ListView android:id="@+id/devices_listview" android:background="#f4f3f3" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:divider="#f4f3f3" android:dividerHeight="10dp" android:overScrollMode="never" />
+</LinearLayout>

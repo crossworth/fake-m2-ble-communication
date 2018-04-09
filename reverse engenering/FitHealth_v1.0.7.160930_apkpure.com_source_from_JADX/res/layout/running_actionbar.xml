@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/discover_title_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@+id/back_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:src="@drawable/actionbar_back" android:layout_centerVertical="true" />
+        <TextView android:textSize="21dp" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:text="@string/app_name" android:layout_toRightOf="@+id/back_m" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

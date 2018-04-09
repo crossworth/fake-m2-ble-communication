@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="accessibility_service_config">res/xml/accessibility_service_config.xml</xml>
+    <xml name="running_app_widget_provider_config">res/xml/running_app_widget_provider_config.xml</xml>
+</resources>

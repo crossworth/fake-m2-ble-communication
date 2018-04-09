@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="advance_run_fifth_week_plan">
+        <item>De eerste njogging 8 minuten; 1 is dat ontspannen - nRepeat; 2 is dat Kerr 1 bewegen.</item>
+        <item>De tweede njogging 8 minuten; 1 is dat ontspannen; 2 - 1 is dat nRepeat Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 8 minuten; 1 is dat ontspannen; 2 - 1 is dat nRepeat Kerr.</item>
+        <item>Tien njogging vierde 8 minuten; 1 is dat ontspannen; 2 - 1 is dat nRepeat Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="advance_run_first_week_plan">
+        <item>De eerste is dat de njogging 1 1 8 is; dat, dat ontspannen - nRepeat Kerr 1 bewegen.</item>
+        <item>De tweede is dat njogging 1 1 8 is; dat, dat ontspannen - nRepeat Kerr 1 bewegen.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 1 is gezegd; 1 is dat ontspannen - nRepeat; 8 is dat Kerr 1 bewegen.</item>
+        <item>Tien njogging vierde 1 is gezegd; 1 is dat ontspannen - nRepeat; 8 is dat Kerr 1 bewegen.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="advance_run_fourth_week_plan">
+        <item>De eerste njogging 6 minuten; 1 is dat ontspannen - nRepeat; 3 is dat Kerr 1 bewegen.</item>
+        <item>De tweede njogging 6 minuten; 1 is dat ontspannen - nRepeat; 3 is dat Kerr 1 bewegen.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 6 minuten; 1 is dat ontspannen - nRepeat; 3 is dat Kerr 1 bewegen.</item>
+        <item>Tien njogging vierde 6 minuten; 1 is dat ontspannen; 3 - 1 is dat nRepeat Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="advance_run_second_week_plan">
+        <item>De eerste njogging 2 minuten, 1 - 6 is gezegd; 1 is gezegd in de ontspannen nRepeat Kerr.</item>
+        <item>De tweede njogging 2 minuten, 1 - 6 is gezegd; 1 is gezegd in de ontspannen nRepeat Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 2 minuten, 1 - 6 is gezegd; 1 is gezegd in de ontspannen nRepeat Kerr.</item>
+        <item>Tien njogging vierde 2 minuten, 1 - 6 is gezegd; 1 is gezegd in de ontspannen nRepeat Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="advance_run_sixth_week_plan">
+        <item>De eerste njogging 10 minuten; 2 minuten gaan lopen, nRepeat 2 1 is dat ontspannen Kerr.</item>
+        <item>De tweede njogging 10 minuten; 2 minuten gaan lopen, nRepeat 2 1 is dat ontspannen Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 10 minuten; 2 minuten gaan lopen, nRepeat 2 1 is dat ontspannen Kerr.</item>
+        <item>Tien njogging vierde 10 minuten; 2 minuten gaan lopen, nRepeat 2 1 is dat ontspannen Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="advance_run_third_week_plan">
+        <item>4 minuten en 1 van de eerste njogging zei; 4 - 1 is dat nrepeated Kerr ontspannen beweging.</item>
+        <item>De tweede njogging en 1 - 4 minuten is dat op 1 ontspannen; 4 is dat nrepeated Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging en 1 - 4 minuten is dat op 1 ontspannen; 4 is dat nrepeated Kerr.</item>
+        <item>Tien njogging vierde en 1 - 4 minuten is dat op 1 ontspannen; 4 is dat nrepeated Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="beyond_marathon_eighth_week_plan">
+        <item>De rest van de dag</item>
+        <item>De eerste njogging van 5 km.</item>
+        <item>De tweede njogging 8 km.</item>
+        <item>Ten derde njogging 3 kilometer.</item>
+        <item>De rest van de dag</item>
+        <item>Tien njogging 42.195km vierde.</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="beyond_marathon_fifth_week_plan">
+        <item>De rest van de dag</item>
+        <item>De eerste njogging 6 kilometer.</item>
+        <item>De tweede njogging 12 kilometer.</item>
+        <item>Ten derde njogging 6 kilometer.</item>
+        <item>De rest van de dag</item>
+        <item>Tien njogging vierde 25.</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="beyond_marathon_first_week_plan">
+        <item>De rest van de dag</item>
+        <item>De eerste njogging van 5 km.</item>
+        <item>De tweede njogging van 5 km.</item>
+        <item>Ten derde njogging van 5 km.</item>
+        <item>De rest van de dag</item>
+        <item>Tien njogging vierde 10 km.</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="beyond_marathon_fourth_week_plan">
+        <item>De rest van de dag</item>
+        <item>De eerste njogging van 5 km.</item>
+        <item>De tweede njogging 10 km.</item>
+        <item>Ten derde njogging van 5 km.</item>
+        <item>De rest van de dag</item>
+        <item>Dat njogging 4 truck gevonden.</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="beyond_marathon_second_week_plan">
+        <item>De rest van de dag</item>
+        <item>De eerste njogging van 5 km.</item>
+        <item>De tweede njogging 6 kilometer.</item>
+        <item>Ten derde njogging van 5 km.</item>
+        <item>De rest van de dag</item>
+        <item>Tien njogging vierde 8 km.</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="beyond_marathon_seventh_week_plan">
+        <item>De rest van de dag</item>
+        <item>De eerste njogging 8 km.</item>
+        <item>De tweede njogging 15 kilometer.</item>
+        <item>Ten derde njogging 8 km.</item>
+        <item>De rest van de dag</item>
+        <item>Tien njogging vierde 15 kilometer.</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="beyond_marathon_sixth_week_plan">
+        <item>De rest van de dag</item>
+        <item>De eerste njogging 6 kilometer.</item>
+        <item>De tweede njogging 15 kilometer.</item>
+        <item>Ten derde njogging 8 km.</item>
+        <item>De rest van de dag</item>
+        <item>Tien njogging vierde 30 kilometer.</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="beyond_marathon_third_week_plan">
+        <item>De rest van de dag</item>
+        <item>De eerste njogging van 5 km.</item>
+        <item>De tweede njogging 8 km.</item>
+        <item>Ten derde njogging van 5 km.</item>
+        <item>De rest van de dag</item>
+        <item>Tien njogging vierde 15 kilometer.</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="first_marathon_eighth_week_plan">
+        <item>De eerste 20 minuten njogging.</item>
+        <item>De rest van de dag</item>
+        <item>De tweede njogging 20 minuten.5 minuten gaan lopen.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 30 minuten.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="first_marathon_fifth_week_plan">
+        <item>De eerste vijf minuten njogging; 3 minuten gaan lopen, worden vier Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De tweede njogging 10 minuten.5 minuten 5 Kerr herhalen gaan lopen.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 4 7 minuten en 3 minuten Kerr herhalen gaan lopen.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="first_marathon_first_week_plan">
+        <item>Ten eerste, 15 minuten gaan lopen.</item>
+        <item>De rest van de dag</item>
+        <item>Ten tweede, 20 minuten weg.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 1 1 minuten; gaan 6 - .</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="first_marathon_fourth_week_plan">
+        <item>De eerste njogging 3 minuten, 2 minuten en 7 Kerr herhalen gaan lopen.</item>
+        <item>De rest van de dag</item>
+        <item>De tweede njogging 3 minuten; 90, gaan herhalen; 5 Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 4 minuten; 2 minuten gaan lopen.5 herhalen Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="first_marathon_second_week_plan">
+        <item>1 is dat de eerste njogging; gaan is dat 1, 8 Kerr worden herhaald; 6 -.</item>
+        <item>De rest van de dag</item>
+        <item>De tweede is dat njogging 1 1 8; is dat Europa, Kerr worden herhaald; 6 -.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 2 minuten; 1 is dat 8 Kerr worden herhaald; 6 -.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="first_marathon_seventh_week_plan">
+        <item>De eerste njogging 10 minuten; 2 minuten gaan lopen, of herhaald Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De tweede njogging 15 minuten.5 minuten gaan lopen.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 20 minuten.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="first_marathon_sixth_week_plan">
+        <item>De eerste njogging en 3 minuten 7 minuten 5 Kerr herhalen gaan lopen.</item>
+        <item>De rest van de dag</item>
+        <item>De tweede njogging 10 minuten.5 minuten herhaald gaan lopen, of Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 10 minuten.5 minuten herhaald gaan lopen, of Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="first_marathon_third_week_plan">
+        <item>De eerste njogging 2 minuten; 2 minuten gaan lopen.Herhaald zes Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De tweede njogging 2 minuten; 2 minuten gaan lopen.8 herhalen Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 3 minuten, 2 minuten gaan lopen.5 herhalen Kerr.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="primary_run_first_week_plan">
+        <item>De eerste tien minuten drie minuten, tien minuten gaan lopen; gaan, of zelfs een deel.</item>
+        <item>Ten tweede weg 3 minuten, 10 minuten, 10 minuten gaan lopen; gaan, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde weg 3 minuten, 10 minuten, 10 minuten gaan lopen; gaan, of zelfs een deel.</item>
+        <item>Tien vierde wedstrijd 3 minuten, 10 minuten, 10 minuten gaan lopen; gaan, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="primary_run_fourth_week_plan">
+        <item>De eerste is dat de njogging 1 1 1 is gezegd; dat njogging; 12 - Kerr; herhaalt, of zelfs een deel.</item>
+        <item>De tweede is dat njogging 1 1 1 is gezegd; dat njogging; 12 - Kerr; herhaalt, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 1 is gezegd; 1 1 is gezegd - is dat, njogging 12 Kerr, herhaalt, of zelfs een deel.</item>
+        <item>Tien njogging vierde 1 is gezegd; 1 1 is gezegd - is dat, njogging 12 Kerr, herhaalt, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="primary_run_second_week_plan">
+        <item>De eerste 15 minuten weg, 3 minuten gaan lopen; 1 is dat ontspannen beweging.</item>
+        <item>De tweede 15 minuten gaan; 3 minuten gaan lopen; 1 is dat ontspannen beweging.</item>
+        <item>De rest van de dag</item>
+        <item>De derde 15 minuten gaan; 3 minuten gaan lopen; 1 is dat ontspannen beweging.</item>
+        <item>Tien vierde 15 minuten gaan; 3 minuten gaan lopen; 1 is dat ontspannen beweging.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="primary_run_third_week_plan">
+        <item>De eerste is dat de njogging 1 1 1 is gezegd; dat njogging; 9 - Kerr; herhaalt, of zelfs een deel.</item>
+        <item>De tweede is dat njogging 1 1 1 is gezegd; dat njogging; 9 - Kerr; herhaalt, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde njogging 1 is gezegd; 1 1 is gezegd - is dat, njogging 9 Kerr, herhaalt, of zelfs een deel.</item>
+        <item>Tien njogging vierde 1 is gezegd; 1 1 is gezegd - is dat, njogging 9 Kerr, herhaalt, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="walk_first_week_plan">
+        <item>De eerste vijf minuten gaan lopen, gaan lopen, 3 minuten, 5 minuten weg.Zelfs een deel van.</item>
+        <item>De rest van de dag</item>
+        <item>Ten tweede, over vijf minuten gaan lopen, gaan lopen, gaan lopen drie minuten. 5 minuten, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde, over vijf minuten gaan lopen, gaan lopen, gaan lopen drie minuten. 5 minuten, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="walk_fourth_week_plan">
+        <item>De eerste tien minuten drie minuten, tien minuten gaan lopen; gaan, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>Ten tweede weg 3 minuten, 10 minuten, 10 minuten gaan lopen; gaan, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde weg 3 minuten, 10 minuten, 10 minuten gaan lopen; gaan, of zelfs een deel.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="walk_second_week_plan">
+        <item>Ten eerste, de 6 minuten gaan; 3 minuten gaan lopen; en N7 minuten weg.Zelfs een deel van.</item>
+        <item>De rest van de dag</item>
+        <item>Ten tweede gaan, 6 minuten en 3 minuten gaan lopen; en N7 minuten weg.Zelfs een deel van.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde, de 6 minuten gaan; 3 minuten gaan lopen; en N7 minuten weg.Zelfs een deel van.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="walk_third_week_plan">
+        <item>Ten eerste, acht minuten weg, 3 minuten gaan lopen; 85 minuten weg.Zelfs een deel van.</item>
+        <item>De rest van de dag</item>
+        <item>Ten tweede gaan, 8 minuten, 3 minuten gaan lopen; 85 minuten weg.Zelfs een deel van.</item>
+        <item>De rest van de dag</item>
+        <item>Ten derde gaan, 8 minuten, 3 minuten gaan lopen; 85 minuten weg.Zelfs een deel van.</item>
+        <item>De rest van de dag</item>
+        <item>De rest van de dag</item>
+    </array>
+    <array name="week_str">
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Trouwen.</item>
+        <item>De universiteit</item>
+        <item>Goede Vrijdag</item>
+        <item>Ga zitten.</item>
+        <item>Dearon</item>
+    </array>
+</resources>

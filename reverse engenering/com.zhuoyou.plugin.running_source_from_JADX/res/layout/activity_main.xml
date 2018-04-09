@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <View android:background="#d1d1d1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <FrameLayout android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textColor="@color/main_tab_text" android:id="@+id/tab1_radio0" android:text="@string/main_tab_main" android:drawableTop="@drawable/ic_home" style="@style/MainTabTextView" />
+            <TextView android:textColor="@color/main_tab_text" android:id="@+id/tab1_radio1" android:text="@string/main_tab_rank" android:drawableTop="@drawable/ic_ranking" style="@style/MainTabTextView" />
+            <TextView android:textColor="@color/main_tab_text" android:id="@+id/tab1_radio2" android:text="@string/main_tab_train" android:drawableTop="@drawable/ic_train" style="@style/MainTabTextView" />
+            <TextView android:textColor="@color/main_tab_text" android:id="@+id/tab1_radio3" android:text="@string/main_tab_user" android:drawableTop="@drawable/ic_mine" style="@style/MainTabTextView" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textColor="@color/main_tab_text_checked" android:id="@+id/tab_radio0" android:text="@string/main_tab_main" android:drawableTop="@drawable/ic_home_pressed" android:alpha="0.0" style="@style/MainTabTextView" />
+            <TextView android:textColor="@color/main_tab_text_checked" android:id="@+id/tab_radio1" android:text="@string/main_tab_rank" android:drawableTop="@drawable/ic_ranking_pressed" android:alpha="0.0" style="@style/MainTabTextView" />
+            <TextView android:textColor="@color/main_tab_text_checked" android:id="@+id/tab_radio2" android:text="@string/main_tab_train" android:drawableTop="@drawable/ic_train_pressed" android:alpha="0.0" style="@style/MainTabTextView" />
+            <TextView android:textColor="@color/main_tab_text_checked" android:id="@+id/tab_radio3" android:text="@string/main_tab_user" android:drawableTop="@drawable/ic_mine_pressed" android:alpha="0.0" style="@style/MainTabTextView" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

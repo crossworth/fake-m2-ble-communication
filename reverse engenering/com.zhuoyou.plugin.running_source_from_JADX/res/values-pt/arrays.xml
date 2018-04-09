@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="advance_run_fifth_week_plan">
+        <item>1º\nJogging 8 minuto; 1 minuto a pé;\nrepeat 2 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>2º\nJogging 8 minuto; 1 minuto a pé;\nrepeat 2 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nJogging 8 minuto; 1 minuto a pé;\nrepeat 2 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>4º\nJogging 8 minuto; 1 minuto a pé;\nrepeat 2 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="advance_run_first_week_plan">
+        <item>1º\nJogging 1 minuto; 1 minuto a pé;\nrepeat 8 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>2º\nJogging 1 minuto; 1 minuto a pé;\nrepeat 8 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nJogging 1 minuto; 1 minuto a pé;\nrepeat 8 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>4º\nJogging 1 minuto; 1 minuto a pé;\nrepeat 8 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="advance_run_fourth_week_plan">
+        <item>1º\nJogging 6 minuto; 1 minuto a pé;\nrepeat 3 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>2º\nJogging 6 minuto; 1 minuto a pé;\nrepeat 3 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nJogging 6 minuto; 1 minuto a pé;\nrepeat 3 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>4º\nJogging 6 minuto; 1 minuto a pé;\nrepeat 3 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="advance_run_second_week_plan">
+        <item>1º\nJogging 2 minuto; 1 minuto a pé;\nrepeat 6 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>2º\nJogging 2 minuto; 1 minuto a pé;\nrepeat 6 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nJogging 2 minuto; 1 minuto a pé;\nrepeat 6 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>4º\nJogging 2 minuto; 1 minuto a pé;\nrepeat 6 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="advance_run_sixth_week_plan">
+        <item>1º\nJogging 10 minuto; 2 minuto a pé;\nrepeat 2 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>2º\nJogging 10 minuto; 2 minuto a pé;\nrepeat 2 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nJogging 10 minuto; 2 minuto a pé;\nrepeat 2 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>4º\nJogging 10 minuto; 2 minuto a pé;\nrepeat 2 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="advance_run_third_week_plan">
+        <item>1º\nJogging 4 minuto; 1 minuto a pé;\nrepeat 4 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>2º\nJogging 4 minuto; 1 minuto a pé;\nrepeat 4 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nJogging 4 minuto; 1 minuto a pé;\nrepeat 4 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>4º\nJogging 4 minuto; 1 minuto a pé;\nrepeat 4 vezes; exercício de relaxamento de 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="beyond_marathon_eighth_week_plan">
+        <item>Um dia de descanso</item>
+        <item>1º\nde corrida 5km。</item>
+        <item>2º\nde corrida 8km。</item>
+        <item>3º\nde corrida 3km。</item>
+        <item>Um dia de descanso</item>
+        <item>4º\nde corrida 42.195km。</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="beyond_marathon_fifth_week_plan">
+        <item>Um dia de descanso</item>
+        <item>1º\nde corrida 6km。</item>
+        <item>2º\nde corrida 12km。</item>
+        <item>3º\nde corrida 6km。</item>
+        <item>Um dia de descanso</item>
+        <item>4º\nde corrida 25km。</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="beyond_marathon_first_week_plan">
+        <item>Um dia de descanso</item>
+        <item>1º\nde corrida 5 km。</item>
+        <item>2º\nde corrida 5km。</item>
+        <item>3º\nde corrida 5km。</item>
+        <item>Um dia de descanso</item>
+        <item>4º\nde corrida 10km。</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="beyond_marathon_fourth_week_plan">
+        <item>Um dia de descanso</item>
+        <item>1º\nde corrida 5km。</item>
+        <item>2º\nde corrida 10km。</item>
+        <item>3º\nde corrida 5km。</item>
+        <item>Um dia de descanso</item>
+        <item>4º\nde corrida 21km。</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="beyond_marathon_second_week_plan">
+        <item>Um dia de descanso</item>
+        <item>1º\nde corrida 5km。</item>
+        <item>2º\nde corrida 6km。</item>
+        <item>3º\nde corrida 5km。</item>
+        <item>Um dia de descanso</item>
+        <item>4º\nde corrida 8km。</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="beyond_marathon_seventh_week_plan">
+        <item>Um dia de descanso</item>
+        <item>1º\nde corrida 8km。</item>
+        <item>2º\nde corrida 15km。</item>
+        <item>3º\nde corrida 8km。</item>
+        <item>Um dia de descanso</item>
+        <item>4º\nde corrida 15km。</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="beyond_marathon_sixth_week_plan">
+        <item>Um dia de descanso</item>
+        <item>1º\nde corrida 6km。</item>
+        <item>2º\nde corrida 15km。</item>
+        <item>3º\nde corrida 8km。</item>
+        <item>Um dia de descanso</item>
+        <item>4º\nde corrida 30km。</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="beyond_marathon_third_week_plan">
+        <item>Um dia de descanso</item>
+        <item>1º\nde corrida 5km。</item>
+        <item>2º\nde corrida 8km。</item>
+        <item>3º\nde corrida 5km。</item>
+        <item>Um dia de descanso</item>
+        <item>4º\nde corrida 15km。</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="first_marathon_eighth_week_plan">
+        <item>1º\nMovimentar–se 20 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nMovimentar–se 20 minuto, 5 minuto a pé.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar–se 30 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="first_marathon_fifth_week_plan">
+        <item>1º\nMovimentar–se 4 minuto, 2 minuto a pé; repita 5 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nMovimentar–se 10 minuto, 5 minuto a pé; repita 5 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar–se 7 minuto, 3 minuto a pé; repita 4 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="first_marathon_first_week_plan">
+        <item>1º\n15 minutos a pé.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\n20 minutos a pé.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar–se um minuto, um minuto a pé; repita 6–10 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="first_marathon_fourth_week_plan">
+        <item>1º\nMovimentar–se 3 minuto, 2 minuto a pé; repita 7 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nMovimentar–se 3 minuto, 2 minuto a pé; repita 5 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar–se 4 minuto, 2 minuto a pé; repita 5 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="first_marathon_second_week_plan">
+        <item>1º\nMovimentar–se um minuto, um minuto a pé; repita 6–8 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nMovimentar–se um minuto, um minuto a pé; repita 6–8 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar–se 2 minuto, um minuto a pé; repita 6–8 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="first_marathon_seventh_week_plan">
+        <item>1º\nMovimentar–se 10 minuto, 3 minuto a pé; repita 2 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nMovimentar–se 15 minuto, 5 minuto a pé.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar–se 20 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="first_marathon_sixth_week_plan">
+        <item>1º\nMovimentar–se 7 minuto, 3 minuto a pé; repita 5 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nMovimentar–se 7 minuto, 3 minuto a pé; repita 5 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar–se 7 minuto, 3 minuto a pé; repita 5 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="first_marathon_third_week_plan">
+        <item>1º\nMovimentar–se 2 minuto, 2 minuto a pé; repita 6 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nMovimentar–se 2 minuto, 2 minuto a pé; repita 8 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar–se 3 minuto, 2 minuto a pé; repita 5 vezes.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="primary_run_first_week_plan">
+        <item>1º\nminutos 10 de caminhada rápida, caminhando 3 minutos;\n10 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>2º\nminutos 10 de caminhada rápida, caminhando 3 minutos;\n10 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nminutos 10 de caminhada rápida, caminhando 3 minutos;\n10 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>4º\nminutos 10 de caminhada rápida, caminhando 3 minutos;\n10 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="primary_run_fourth_week_plan">
+        <item>1º\nMovimentar-se um minuto, um minuto a pé;\n movimentando-se um minuto, repetido 12 vezes; exercícios de relaxamento durante 1minuto.</item>
+        <item>2º\nMovimentar-se um minuto, um minuto a pé;\n movimentando-se um minuto, repetido 12 vezes; exercícios de relaxamento durante 1minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar-se um minuto, um minuto a pé;\n movimentando-se um minuto, repetido 12 vezes; exercícios de relaxamento durante 1minuto.</item>
+        <item>4º\nMovimentar-se um minuto, um minuto a pé;\n movimentando-se um minuto, repetido 12 vezes; exercícios de relaxamento durante 1minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="primary_run_second_week_plan">
+        <item>1º\n15 minutos de caminhada rápida, caminhando três minutos; exercícios de relaxamento durante 1 minuto.</item>
+        <item>2º\n15 minutos de caminhada rápida, caminhando três minutos; exercícios de relaxamento durante 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\n15 minutos de caminhada rápida, caminhando três minutos; exercícios de relaxamento durante 1 minuto.</item>
+        <item>4º\n15 minutos de caminhada rápida, caminhando três minutos; exercícios de relaxamento durante 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="primary_run_third_week_plan">
+        <item>1º\nMovimentar-se um minuto, um minuto a pé;\n movimentando-se um minuto, repetido nove vezes; exercícios de relaxamento durante 1 minuto.</item>
+        <item>2º\nMovimentar-se um minuto, um minuto a pé;\n movimentando-se um minuto, repetido nove vezes; exercícios de relaxamento durante 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nMovimentar-se um minuto, um minuto a pé;\n movimentando-se um minuto, repetido nove vezes; exercícios de relaxamento durante 1 minuto.</item>
+        <item>4º\nMovimentar-se um minuto, um minuto a pé;\n movimentando-se um minuto, repetido nove vezes; exercícios de relaxamento durante 1 minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="walk_first_week_plan">
+        <item>1º\nminutos 5 de caminhada rápida, caminhando 3 minutos;\n5 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nminutos 5 de caminhada rápida, caminhando 3 minutos;\n5 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nminutos 5 de caminhada rápida, caminhando 3 minutos;\n5 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="walk_fourth_week_plan">
+        <item>1º\nminutos 10 de caminhada rápida, caminhando 3 minutos;\n10 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nminutos 10 de caminhada rápida, caminhando 3 minutos;\n10 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nminutos 10 de caminhada rápida, caminhando 3 minutos;\n10 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="walk_second_week_plan">
+        <item>1º\nminutos 6 de caminhada rápida, caminhando 3 minutos;\n7 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nminutos 6 de caminhada rápida, caminhando 3 minutos;\n7 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nminutos 6 de caminhada rápida, caminhando 3 minutos;\n7 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="walk_third_week_plan">
+        <item>1º\nminutos 8 de caminhada rápida, caminhando 3 minutos;\n8 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>2º\nminutos 8 de caminhada rápida, caminhando 3 minutos;\n8 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>3º\nminutos 8 de caminhada rápida, caminhando 3 minutos;\n8 minutos de caminhada rápida; relaxar um minuto.</item>
+        <item>Um dia de descanso</item>
+        <item>Um dia de descanso</item>
+    </array>
+    <array name="week_str">
+        <item>segunda-feira</item>
+        <item>terça-feira</item>
+        <item>quarta-feira</item>
+        <item>Qui</item>
+        <item>sex</item>
+        <item>Sab</item>
+        <item>Dom</item>
+    </array>
+</resources>

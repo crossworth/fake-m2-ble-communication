@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/divider_large_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar app:id="@+id/actionbar" app:custom_title="@string/actionbar_title_register" style="@style/DefaultActionBar" />
+    <AutoCompleteTextView app:id="@+id/user_name" app:hint="@string/account_input_name" app:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" app:imeActionLabel="@string/account_next" app:imeActionId="@+id/next" style="@style/AccountNameEditText" />
+    <EditText app:id="@+id/user_password" app:hint="@string/account_input_password" app:digits="@string/account_passwd_regular" app:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" app:imeActionLabel="@string/account_next" app:imeActionId="@+id/next" style="@style/AccountPasswdEditText" />
+    <EditText app:id="@+id/user_password_again" app:hint="@string/account_input_password_again" app:digits="@string/account_passwd_regular" app:imeOptions="UNKNOWN_DATA_0x0" app:imeActionLabel="@string/account_register" app:imeActionId="@+id/regist" style="@style/AccountPasswdEditText" />
+    <TextView app:id="@+id/btn_register" app:layout_marginTop="46dp" app:text="@string/account_register_and_login" app:onClick="onClick" style="@style/AccountButton" />
+</LinearLayout>

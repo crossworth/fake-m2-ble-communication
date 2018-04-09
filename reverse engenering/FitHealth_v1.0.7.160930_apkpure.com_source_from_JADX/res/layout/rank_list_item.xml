@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3801">
+    <ImageView android:id="@+id/rank_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" />
+    <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rank" android:layout_width="UNKNOWN_DATA_0x2e01" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/icon" android:layout_width="UNKNOWN_DATA_0x2f01" android:layout_height="UNKNOWN_DATA_0x2f01" android:layout_marginRight="16dp" android:layout_toRightOf="@+id/rank" android:layout_centerVertical="true" />
+    <ImageView android:layout_width="UNKNOWN_DATA_0x2f01" android:layout_height="UNKNOWN_DATA_0x2f01" android:layout_marginRight="16dp" android:src="@drawable/logo_background" android:layout_toRightOf="@+id/rank" android:layout_centerVertical="true" />
+    <TextView android:textSize="18sp" android:ellipsize="end" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+    <TextView android:id="@+id/step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="#f4f3f3" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar app:id="@+id/actionbar" app:custom_back_title="@string/actionbar_title_target_remind" style="@style/DefaultActionBar" />
+    <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_marginTop="20dp" style="@style/SettingItemLayoutLarge">
+        <TextView app:id="@+id/sport_target_tv" app:text="@string/standard_reminder" style="@style/SettingItemTitleTextView" />
+        <TextView app:layout_marginTop="8dp" app:text="@string/sport_target_remind" app:layout_toLeftOf="@+id/cb_sport_target" app:layout_below="@+id/sport_target_tv" style="@style/SettingItemDetailTextView" />
+        <CheckBox app:id="@+id/cb_sport_target" app:checked="false" style="@style/devcie_checkbox_style" />
+    </RelativeLayout>
+</LinearLayout>

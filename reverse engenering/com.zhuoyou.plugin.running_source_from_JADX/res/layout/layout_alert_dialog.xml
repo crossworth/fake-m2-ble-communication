@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" style="@style/DefaultDialogLayout">
+    <TextView android:id="@+id/dialog_title" style="@style/DefaultDialogTitle" />
+    <TextView android:id="@+id/dialog_message" style="@style/AlertDialogMessage" />
+    <LinearLayout android:orientation="horizontal" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/button_left" style="@style/DefaultDialogButton" />
+        <Button android:id="@+id/button_middle" style="@style/DefaultDialogButton" />
+        <Button android:id="@+id/button_right" style="@style/DefaultDialogButton" />
+    </LinearLayout>
+</LinearLayout>

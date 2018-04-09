@@ -1,0 +1,44 @@
+package com.zhuoyi.system.util.constant;
+
+public class CommConstants {
+    public static final String APPID_METADATA_KEY = "zy_appid";
+    public static final int APP_STATUS_DOWNLOADING = 5;
+    public static final int APP_STATUS_DOWNLOAD_WAITING = 6;
+    public static final int APP_STATUS_HAS_UPDATE = 7;
+    public static final int APP_STATUS_INSTALLED = 3;
+    public static final int APP_STATUS_NO_DOWNLOAD = 1;
+    public static final int APP_STATUS_NO_INSTALL = 2;
+    public static final int APP_STATUS_PAUSE = 4;
+    public static final String BUNDLE_BIG_IMAGE_INDEX = "bundle_big_image_index";
+    public static final String BUNDLE_BIG_IMAGE_URLS = "bundle_big_image_urls";
+    public static final String BUNDLE_KEY_SERVICE_ID = "bundle_key_service_id";
+    public static final String CHANNELID_METADATA_KEY = "zy_channel_id";
+    public static final String CPID_METADATA_KEY = "zy_cp_id";
+    public static final int DIALOG_ID_CHECK_UPDATE_ERROR = 5;
+    public static final int DIALOG_ID_CONFIRM_NUM = 10;
+    public static final int DIALOG_ID_NETWORK_CONNECT_TIMEOUT_ERROR = 6;
+    public static final int DIALOG_ID_NETWORK_UNAVAILABLE_ERROR = 1;
+    public static final int DIALOG_ID_NO_SDCARD_ERROR = 2;
+    public static final int DIALOG_ID_QUIT = 7;
+    public static final int DIALOG_ID_SWITCH_APN_2_ERROR = 9;
+    public static final int DIALOG_ID_SWITCH_APN_ERROR = 8;
+    public static final int DIALOG_ID_UPDATE_APK_FAIL = 4;
+    public static final int DIALOG_ID_UPDATE_RES_FAIL = 3;
+    public static final String LOTUSSED_ZY_METADATA_KEY = "ZY_LOTUSEED_APPKEY";
+    public static final String RECEIVER_ACTION_MEDIA_MOUNTED = "receiver_action_media_mounted";
+    public static final String RECEIVER_ACTION_MEDIA_UNMOUNTED = "receiver_action_media_unmounted";
+    public static final String RECEIVER_ACTION_NET_CHANGED = "receiver_action_net_changed";
+    public static final int SERVICE_ID_DOWNLOAD = 1;
+    public static final int USER_REST_TIME_DAWN = 8;
+    public static final int USER_REST_TIME_NIGHT = 22;
+    public static final String ZY_DEVELOP_CRTPT_KEY = "__jDlog_";
+    public static final String ZY_GET_ADDRESS_TIME = "get_address_time";
+    public static final String ZY_GET_DATA_PRIORITY = "zy_get_data_priority";
+    public static final String ZY_GET_DATA_PRIORITY_DB_FIRST = "0";
+    public static final String ZY_GET_DATA_PRIORITY_META_FIRST = "1";
+    public static final String ZY_PROM_ADDRESS = "prom_address";
+    public static final String ZY_RELEASE_CRTPT_KEY = "_2x_2lR_";
+    public static final String ZY_SHARED_PREFERENCES = "zy_shared_info";
+    public static final String ZY_STATIS_ADDRESS = "statis_address";
+    public static final String ZY_UPDATE_ADDRESS = "update_address";
+}

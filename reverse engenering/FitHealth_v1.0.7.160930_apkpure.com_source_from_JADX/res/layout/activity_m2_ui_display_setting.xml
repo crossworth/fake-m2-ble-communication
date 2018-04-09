@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f4f3f3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/running_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" layout="@layout/running_actionbar" />
+    <TextView android:textSize="12dp" android:textColor="#b5b5b5" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="15dp" android:text="@string/setting_m2_display" />
+    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4201">
+        <TextView android:textSize="14dp" android:textColor="#2a2a2a" android:id="@+id/mileage_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/mileage" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/mileage_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/warn_off" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="#b5b5b5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4201">
+        <TextView android:textSize="14dp" android:textColor="#2a2a2a" android:id="@+id/calories_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/quantity_of_heat" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/calories_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/warn_off" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="#b5b5b5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4201">
+        <TextView android:textSize="14dp" android:textColor="#2a2a2a" android:id="@+id/electricity_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/electricity" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/electricity_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/warn_off" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="#b5b5b5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+</LinearLayout>

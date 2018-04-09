@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" custom:orientation="vertical" custom:background="#000000" custom:layout_width="match_parent" custom:layout_height="match_parent">
+    <LinearLayout custom:gravity="top|bottom|center_vertical|fill_vertical|center|fill" custom:id="@+id/botton_lay" custom:layout_width="match_parent" custom:layout_height="UNKNOWN_DATA_0x5a01" custom:layout_alignParentBottom="true">
+        <ImageView custom:id="@+id/cancel_btn" custom:layout_width="UNKNOWN_DATA_0x1" custom:layout_height="wrap_content" custom:src="@drawable/crop_cancel_selector" custom:layout_weight="1.0" custom:onClick="onClick" />
+        <ImageView custom:id="@+id/left_rotate_btn" custom:layout_width="UNKNOWN_DATA_0x1" custom:layout_height="wrap_content" custom:src="@drawable/crop_left_selector" custom:layout_weight="1.0" custom:onClick="onClick" />
+        <ImageView custom:id="@+id/right_rotate_btn" custom:layout_width="UNKNOWN_DATA_0x1" custom:layout_height="wrap_content" custom:src="@drawable/crop_right_selector" custom:layout_weight="1.0" custom:onClick="onClick" />
+        <ImageView custom:id="@+id/ok_btn" custom:layout_width="UNKNOWN_DATA_0x1" custom:layout_height="wrap_content" custom:src="@drawable/crop_ok_selector" custom:layout_weight="1.0" custom:onClick="onClick" />
+    </LinearLayout>
+    <com.isseiaoki.simplecropview.CropImageView custom:id="@+id/cropImageView" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginTop="30dp" custom:layout_above="@+id/botton_lay" custom:scv_crop_mode="0" custom:scv_background_color="#000000" custom:scv_overlay_color="#80000000" custom:scv_frame_color="0x106000b" custom:scv_handle_color="0x106000b" custom:scv_guide_color="0x106000b" custom:scv_guide_show_mode="2" custom:scv_handle_show_mode="1" custom:scv_handle_size="6dp" custom:scv_touch_padding="6dp" custom:scv_min_frame_size="50dp" custom:scv_frame_stroke_weight="1dp" custom:scv_guide_stroke_weight="1px" custom:scv_initial_frame_scale="0.75" />
+</RelativeLayout>

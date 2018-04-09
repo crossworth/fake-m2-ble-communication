@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@+id/activity_sports_report" app:layout_width="match_parent" app:layout_height="match_parent" app:animateLayoutChanges="true">
+    <com.zhuoyou.plugin.running.view.VerticalViewPager app:id="@+id/view_pager" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <com.zhuoyou.plugin.running.view.MyActionBar app:id="@id/action_bar" app:layout_width="match_parent" app:layout_height="wrap_content" app:custom_back_title="@string/sport_report_title" app:custom_right_title="@string/sport_report_refresh" />
+    <TextView app:textSize="12dp" app:textColor="0x106000b" app:id="@+id/tv_top" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/sport_back_to_top" app:layout_above="@+id/btn_top" app:layout_centerHorizontal="true" />
+    <ImageView app:id="@+id/btn_top" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="6dp" app:src="@drawable/ic_nextpage" app:layout_alignParentBottom="true" app:onClick="onClick" />
+</RelativeLayout>

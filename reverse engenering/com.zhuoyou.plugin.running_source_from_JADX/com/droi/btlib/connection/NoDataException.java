@@ -1,0 +1,17 @@
+package com.droi.btlib.connection;
+
+public class NoDataException extends Exception {
+    private static final long serialVersionUID = 1;
+
+    public NoDataException(String msg) {
+        super(msg);
+    }
+
+    public NoDataException(String msg, Throwable cause) {
+        super(msg, cause);
+    }
+
+    public NoDataException(Throwable cause) {
+        super(cause);
+    }
+}

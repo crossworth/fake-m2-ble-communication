@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="280dp">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/header" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3701">
+        <TextView android:id="@id/title" android:paddingLeft="12dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" style="@style/DialogText_Title" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:background="@drawable/footer" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/message" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.5" style="@style/DialogText" />
+        <View android:background="#dedede" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginTop="40dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="16sp" android:textColor="#434343" android:id="@+id/positiveButton" android:background="@drawable/dialog_left_selector" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:singleLine="true" android:layout_weight="1.0" android:textAllCaps="false" />
+            <View android:background="#dedede" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+            <Button android:textSize="16sp" android:textColor="#434343" android:id="@+id/negativeButton" android:background="@drawable/dialog_right_selector" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2801" android:singleLine="true" android:layout_weight="1.0" android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

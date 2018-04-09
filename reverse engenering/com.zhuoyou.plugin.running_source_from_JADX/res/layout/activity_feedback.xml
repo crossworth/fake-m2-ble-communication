@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" myactionbar:orientation="vertical" myactionbar:background="@color/main_style_background" myactionbar:layout_width="match_parent" myactionbar:layout_height="match_parent">
+    <com.zhuoyou.plugin.running.view.MyActionBar myactionbar:id="@+id/actionbar" myactionbar:custom_back_title="@string/actionbar_title_feedback" myactionbar:custom_right_title="@string/feedback_commit" style="@style/DefaultActionBar" />
+    <ScrollView myactionbar:layout_width="match_parent" myactionbar:layout_height="match_parent" myactionbar:overScrollMode="never">
+        <LinearLayout myactionbar:orientation="vertical" myactionbar:background="@color/main_style_background" myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content">
+            <TextView myactionbar:textSize="12sp" myactionbar:layout_width="wrap_content" myactionbar:layout_height="wrap_content" myactionbar:layout_marginLeft="13dp" myactionbar:layout_marginTop="11dp" myactionbar:layout_marginBottom="11dp" myactionbar:text="@string/feedback_detail" />
+            <LinearLayout myactionbar:orientation="vertical" myactionbar:background="@drawable/setting_item_background" myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content">
+                <EditText myactionbar:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" myactionbar:id="@+id/edit_problem" myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content" myactionbar:layout_marginRight="18dp" myactionbar:hint="@string/droi_feedback_content_hint" myactionbar:minLines="5" />
+                <TextView myactionbar:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content" myactionbar:layout_marginRight="18dp" myactionbar:text="0/1000" />
+            </LinearLayout>
+            <TextView myactionbar:textSize="12sp" myactionbar:layout_width="wrap_content" myactionbar:layout_height="wrap_content" myactionbar:layout_marginLeft="13dp" myactionbar:layout_marginTop="11dp" myactionbar:layout_marginBottom="11dp" myactionbar:text="@string/feedback_contact_manner" />
+            <View style="@style/DividerLargeView" />
+            <LinearLayout myactionbar:orientation="vertical" myactionbar:background="@drawable/setting_item_background" myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content">
+                <EditText myactionbar:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" myactionbar:id="@+id/edit_contact_manner" myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content" myactionbar:layout_marginRight="18dp" myactionbar:hint="@string/droi_feedback_contact_hint" myactionbar:minLines="3" />
+                <TextView myactionbar:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" myactionbar:layout_width="match_parent" myactionbar:layout_height="wrap_content" myactionbar:layout_marginRight="18dp" myactionbar:text="0/100" />
+            </LinearLayout>
+            <LinearLayout myactionbar:gravity="top|bottom|center_vertical|fill_vertical|center|fill" myactionbar:layout_width="wrap_content" myactionbar:layout_height="UNKNOWN_DATA_0x3a01">
+                <CheckBox myactionbar:id="@+id/with_log" myactionbar:background="0x0" myactionbar:layout_width="UNKNOWN_DATA_0x3c01" myactionbar:layout_height="wrap_content" myactionbar:layout_marginRight="@dimen/setting_list_right_margin" myactionbar:button="@drawable/switch_button_selector" myactionbar:onClick="onClick" />
+                <TextView myactionbar:layout_width="UNKNOWN_DATA_0x1" myactionbar:layout_height="wrap_content" myactionbar:text="@string/feedback_with_log" myactionbar:layout_weight="1.0" />
+            </LinearLayout>
+            <View myactionbar:layout_height="UNKNOWN_DATA_0xf01" myactionbar:layout_weight="1.0" style="@style/DividerLargeView" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

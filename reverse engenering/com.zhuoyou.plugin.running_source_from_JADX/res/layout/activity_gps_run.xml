@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <include android:id="@+id/layout_map_mode" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/layout_gps_map" />
+        <include android:id="@+id/layout_simple_mode" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:onClick="onClick" layout="@layout/layout_gps_simple" />
+        <com.zhuoyou.plugin.running.view.MyActionBar android:id="@+id/actionbar" android:right_button_src="@drawable/gps_map" android:custom_back_title="@string/actionbar_title_run" android:custom_right_title="@string/gps_mode_map" style="@style/DefaultActionBar" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_bootom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gps_stop_top_margin" android:layout_marginBottom="@dimen/gps_stop_bottom_margin">
+            <TextView android:textSize="18dp" android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/gps_bt_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gps_click_stop" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/img_stop_back" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gps_bt_pause_pressed" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

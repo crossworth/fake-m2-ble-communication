@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/listview_item" android:background="@color/white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3701">
+    <ImageView android:id="@+id/image_icon" android:layout_width="UNKNOWN_DATA_0x2201" android:layout_height="UNKNOWN_DATA_0x2201" android:layout_marginLeft="24dp" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/Guider_list_text_size" android:textColor="#686868" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/sport_name" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3701" android:layout_marginLeft="23dp" android:layout_toRightOf="@+id/image_icon" />
+    <ImageView android:id="@+id/sport_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3701" android:layout_marginRight="15dp" android:src="@drawable/sportselect" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="#cccccc" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="80dp" android:layout_below="@+id/sport_name" />
+</RelativeLayout>

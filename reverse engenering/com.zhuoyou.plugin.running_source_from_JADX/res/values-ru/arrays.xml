@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="advance_run_fifth_week_plan">
+        <item>njogging 1 8 минут; в 1 минуте ходьбы; \nrepeat в 2 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>2 \njogging 8 минут; в 1 минуте ходьбы; \nrepeat в 2 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>3 \njogging 8 минут; в 1 минуте ходьбы; \nrepeat в 2 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>в 4 - м \njogging 8 минут; в 1 минуте ходьбы; \nrepeat в 2 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="advance_run_first_week_plan">
+        <item>1 \njogging 1 минуту; в 1 минуте ходьбы; \nrepeat 8 раз; 1 минуту расслабляющие упражнения.</item>
+        <item>2 \njogging 1 минуту; в 1 минуте ходьбы; \nrepeat 8 раз; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>3 \njogging 1 минуту; в 1 минуте ходьбы; \nrepeat 8 раз; 1 минуту расслабляющие упражнения.</item>
+        <item>в 4 - м \njogging 1 минуту; в 1 минуте ходьбы; \nrepeat 8 раз; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="advance_run_fourth_week_plan">
+        <item>1 \njogging 6 минут; в 1 минуте ходьбы; \nrepeat 3 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>2 \njogging 6 минут; в 1 минуте ходьбы; \nrepeat 3 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>3 \njogging 6 минут; в 1 минуте ходьбы; \nrepeat 3 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>в 4 - м \njogging 6 минут; в 1 минуте ходьбы; \nrepeat 3 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="advance_run_second_week_plan">
+        <item>1 \njogging 2 места; в 1 минуте ходьбы; \nrepeat 6 раз; 1 минуту расслабляющие упражнения.</item>
+        <item>2 \njogging 2 места; в 1 минуте ходьбы; \nrepeat 6 раз; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>3 \njogging 2 места; в 1 минуте ходьбы; \nrepeat 6 раз; 1 минуту расслабляющие упражнения.</item>
+        <item>в 4 - м \njogging 2 места; в 1 минуте ходьбы; \nrepeat 6 раз; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="advance_run_sixth_week_plan">
+        <item>1 \njogging 10 минут; 2 ходьбы service; \nrepeat в 2 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>2 \njogging 10 минут; 2 ходьбы service; \nrepeat в 2 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>3 \njogging 10 минут; 2 ходьбы service; \nrepeat в 2 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>в 4 - м \njogging 10 минут; 2 ходьбы service; \nrepeat в 2 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="advance_run_third_week_plan">
+        <item>1 \njogging 4 минут; в 1 минуте ходьбы; \nrepeated 4 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>2 \njogging 4 минут; в 1 минуте ходьбы; \nrepeated 4 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>njogging 3 4 минуты; в 1 минуте ходьбы; \nrepeated 4 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>в 4 - м \njogging 4 минут; в 1 минуте ходьбы; \nrepeated 4 раза; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="beyond_marathon_eighth_week_plan">
+        <item>день 50</item>
+        <item>1 \njogging км.</item>
+        <item>2 \njogging 8 км.</item>
+        <item>3 \njogging 3 км.</item>
+        <item>день 50</item>
+        <item>в 4 - м \njogging 42.195km.</item>
+        <item>день 50</item>
+    </array>
+    <array name="beyond_marathon_fifth_week_plan">
+        <item>день 50</item>
+        <item>1 \njogging 6 км.</item>
+        <item>2 \njogging 12 км.</item>
+        <item>3 \njogging 6 км.</item>
+        <item>день 50</item>
+        <item>в 4 - м \njogging 25.</item>
+        <item>день 50</item>
+    </array>
+    <array name="beyond_marathon_first_week_plan">
+        <item>день 50</item>
+        <item>1 \njogging км.</item>
+        <item>2 \njogging км.</item>
+        <item>3 \njogging км.</item>
+        <item>день 50</item>
+        <item>в 4 - м \njogging км.</item>
+        <item>день 50</item>
+    </array>
+    <array name="beyond_marathon_fourth_week_plan">
+        <item>день 50</item>
+        <item>1 \njogging км.</item>
+        <item>2 \njogging км.</item>
+        <item>3 \njogging км.</item>
+        <item>день 50</item>
+        <item>в 4 - м \njogging 21km.</item>
+        <item>день 50</item>
+    </array>
+    <array name="beyond_marathon_second_week_plan">
+        <item>день 50</item>
+        <item>1 \njogging км.</item>
+        <item>2 \njogging 6 км.</item>
+        <item>3 \njogging км.</item>
+        <item>день 50</item>
+        <item>в 4 - м \njogging 8 км.</item>
+        <item>день 50</item>
+    </array>
+    <array name="beyond_marathon_seventh_week_plan">
+        <item>день 50</item>
+        <item>njogging 1 8 км.</item>
+        <item>2 \njogging).</item>
+        <item>3 \njogging 8 км.</item>
+        <item>день 50</item>
+        <item>в 4 - м \njogging).</item>
+        <item>день 50</item>
+    </array>
+    <array name="beyond_marathon_sixth_week_plan">
+        <item>день 50</item>
+        <item>1 \njogging 6 км.</item>
+        <item>2 \njogging).</item>
+        <item>3 \njogging 8 км.</item>
+        <item>день 50</item>
+        <item>в 4 - м \njogging итд.</item>
+        <item>день 50</item>
+    </array>
+    <array name="beyond_marathon_third_week_plan">
+        <item>день 50</item>
+        <item>1 \njogging км.</item>
+        <item>2 \njogging 8 км.</item>
+        <item>3 \njogging км.</item>
+        <item>день 50</item>
+        <item>в 4 - м \njogging).</item>
+        <item>день 50</item>
+    </array>
+    <array name="first_marathon_eighth_week_plan">
+        <item>1 \njogging 20 минут.</item>
+        <item>день 50</item>
+        <item>2 \njogging 20 минут; в 5 ходьбы service.</item>
+        <item>день 50</item>
+        <item>3 \njogging 30 минут.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="first_marathon_fifth_week_plan">
+        <item>1 \njogging 5 минут; в 3 ходьбы service; еще 4 раза.</item>
+        <item>день 50</item>
+        <item>2 \njogging 10 минут; в 5 ходьбы service; повторить 5 раз.</item>
+        <item>день 50</item>
+        <item>3 \njogging 7 минут; в 3 ходьбы service; еще 4 раза.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="first_marathon_first_week_plan">
+        <item>1 \n15 места ходьбы.</item>
+        <item>день 50</item>
+        <item>2 \n20 and места оживленного.</item>
+        <item>день 50</item>
+        <item>3 \njogging 1 минуту; в 1 минуте ходьбы; повторяю 6 - 10 раз.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="first_marathon_fourth_week_plan">
+        <item>1 \njogging 3 минуты; 2 ходьбы service; повторяю в 7 раз.</item>
+        <item>день 50</item>
+        <item>njogging 2 3 минуты; 90 секунд ходьбы; повторить 5 раз.</item>
+        <item>день 50</item>
+        <item>njogging 3 4 минуты, в 2 ходьбы service; повторить 5 раз.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="first_marathon_second_week_plan">
+        <item>1 \njogging 1 минуту; в 1 минуте ходьбы; повторяю 6 - 8 раз.</item>
+        <item>день 50</item>
+        <item>2 \njogging 1 минуту; в 1 минуте ходьбы; повторяю 6 - 8 раз.</item>
+        <item>день 50</item>
+        <item>3 \njogging 2 места; в 1 минуте ходьбы; повторяю 6 - 8 раз.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="first_marathon_seventh_week_plan">
+        <item>1 \njogging 10 минут; 2 ходьбы service; повторяю 2 раза.</item>
+        <item>день 50</item>
+        <item>2 \njogging 15 минут; в 5 ходьбы service.</item>
+        <item>день 50</item>
+        <item>3 \njogging 20 минут.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="first_marathon_sixth_week_plan">
+        <item>1 \njogging 7 минут; в 3 ходьбы service; повторить 5 раз.</item>
+        <item>день 50</item>
+        <item>2 \njogging 10 минут; в 5 ходьбы service; повторяю 2 раза.</item>
+        <item>день 50</item>
+        <item>3 \njogging 10 минут; в 5 ходьбы service; повторяю 2 раза.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="first_marathon_third_week_plan">
+        <item>1 \njogging 2 минуты; 2 ходьбы service; повторяю в 6 раз.</item>
+        <item>день 50</item>
+        <item>2 \njogging 2 минуты; 2 ходьбы service; повторяю в 8 раз.</item>
+        <item>день 50</item>
+        <item>3 \njogging 3 минуты; 2 ходьбы service; повторить 5 раз.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="primary_run_first_week_plan">
+        <item>1 \n10 места ходьбы and быстрым; 3 минуты; \n10 места большой ходьбы; успокойся на минутку.</item>
+        <item>2 \n10 места ходьбы and быстрым; 3 минуты; \n10 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>3 \n10 места ходьбы and быстрым; 3 минуты; \n10 места большой ходьбы; успокойся на минутку.</item>
+        <item>в 4 - м \n10 места ходьбы and быстрым; 3 минуты; \n10 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="primary_run_fourth_week_plan">
+        <item>1 \njogging 1 минуту; в 1 минуте ходьбы; \njogging 1 минуту; еще 12 раз, успокойся на минутку.</item>
+        <item>2 \njogging 1 минуту; в 1 минуте ходьбы; \njogging 1 минуту; еще 12 раз, успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>3 \njogging 1 минуту; в 1 минуте ходьбы; \njogging 1 минуту; еще 12 раз, успокойся на минутку.</item>
+        <item>в 4 - м \njogging 1 минуту; в 1 минуте ходьбы; \njogging 1 минуту; еще 12 раз, успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="primary_run_second_week_plan">
+        <item>1 \n15 места ходьбы and быстрым; 3 минуты; 1 минуту расслабляющие упражнения.</item>
+        <item>2 \n15 места ходьбы and быстрым; 3 минуты; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>3 \n15 места ходьбы and быстрым; 3 минуты; 1 минуту расслабляющие упражнения.</item>
+        <item>в 4 - м \n15 места ходьбы and быстрым; 3 минуты; 1 минуту расслабляющие упражнения.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="primary_run_third_week_plan">
+        <item>1 \njogging 1 минуту; в 1 минуте ходьбы; \njogging 1 минуту 9 раз; неоднократно; спокойно минуту.</item>
+        <item>2 \njogging 1 минуту; в 1 минуте ходьбы; \njogging 1 минуту 9 раз; неоднократно; спокойно минуту.</item>
+        <item>день 50</item>
+        <item>3 \njogging 1 минуту; в 1 минуте ходьбы; \njogging 1 минуту 9 раз; неоднократно; спокойно минуту.</item>
+        <item>в 4 - м \njogging 1 минуту; в 1 минуте ходьбы; \njogging 1 минуту 9 раз; неоднократно; спокойно минуту.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="walk_first_week_plan">
+        <item>1 \n5 места ходьбы and быстрым; 3 минуты; \n5 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>2 \n5 места ходьбы and быстрым; 3 минуты; \n5 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>3 \n5 места ходьбы and быстрым; 3 минуты; \n5 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="walk_fourth_week_plan">
+        <item>1 \n10 места ходьбы and быстрым; 3 минуты; \n10 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>2 \n10 места ходьбы and быстрым; 3 минуты; \n10 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>3 \n10 места ходьбы and быстрым; 3 минуты; \n10 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="walk_second_week_plan">
+        <item>1 \n6 места ходьбы and быстрым; 3 минуты; \n7 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>2 \n6 места ходьбы and быстрым; 3 минуты; \n7 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>3 \n6 места ходьбы and быстрым; 3 минуты; \n7 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="walk_third_week_plan">
+        <item>1 \n8 места ходьбы and быстрым; 3 минуты; \n8 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>2 \n8 места ходьбы and быстрым; 3 минуты; \n8 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>3 \n8 места ходьбы and быстрым; 3 минуты; \n8 места большой ходьбы; успокойся на минутку.</item>
+        <item>день 50</item>
+        <item>день 50</item>
+    </array>
+    <array name="week_str">
+        <item>мон</item>
+        <item>туэ</item>
+        <item>.</item>
+        <item>чт</item>
+        <item>пятница</item>
+        <item>своим трудом</item>
+        <item>солнце</item>
+    </array>
+</resources>

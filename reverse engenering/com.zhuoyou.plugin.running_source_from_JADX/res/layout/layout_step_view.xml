@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" arcview:orientation="vertical" arcview:background="0x106000d" arcview:paddingLeft="18dp" arcview:paddingRight="18dp" arcview:layout_width="UNKNOWN_DATA_0x7f0a0009" arcview:layout_height="UNKNOWN_DATA_0x7f0a0009">
+    <TextView arcview:textSize="56dp" arcview:textColor="@color/arc_color_value" arcview:id="@+id/tv_step" arcview:clickable="true" arcview:layout_width="wrap_content" arcview:layout_height="wrap_content" arcview:layout_marginTop="80dp" arcview:text="8888" arcview:layout_centerHorizontal="true" />
+    <TextView arcview:textSize="14dp" arcview:textColor="@color/arc_color_value" arcview:layout_width="wrap_content" arcview:layout_height="wrap_content" arcview:layout_marginLeft="8dp" arcview:layout_marginTop="15dp" arcview:text="@string/string_step" arcview:layout_toRightOf="@+id/tv_step" arcview:layout_alignTop="@+id/tv_step" />
+    <RelativeLayout arcview:layout_width="match_parent" arcview:layout_height="wrap_content" arcview:layout_marginTop="5dp" arcview:layout_below="@+id/tv_step" arcview:layout_centerHorizontal="true">
+        <View arcview:id="@+id/view_space" arcview:background="0x106000b" arcview:layout_width="UNKNOWN_DATA_0x100" arcview:layout_height="UNKNOWN_DATA_0xe01" arcview:layout_centerInParent="true" />
+        <TextView arcview:textSize="14dp" arcview:textColor="@color/arc_color_value" arcview:id="@+id/tv_cal" arcview:layout_width="wrap_content" arcview:layout_height="wrap_content" arcview:layout_marginRight="5dp" arcview:text="2223 cal" arcview:layout_toLeftOf="@+id/view_space" arcview:layout_centerVertical="true" />
+        <TextView arcview:textSize="14dp" arcview:textColor="@color/arc_color_value" arcview:id="@+id/tv_distance" arcview:layout_width="wrap_content" arcview:layout_height="wrap_content" arcview:layout_marginLeft="5dp" arcview:text="12.09 km" arcview:layout_toRightOf="@+id/view_space" arcview:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.zhuoyou.plugin.running.view.ArcView arcview:id="@id/arc_step" arcview:layout_width="match_parent" arcview:layout_height="wrap_content" arcview:arc_stoke_width="3dp" arcview:arc_color_back="@color/arc_color_back" arcview:arc_color_value="@color/arc_color_value" />
+</RelativeLayout>

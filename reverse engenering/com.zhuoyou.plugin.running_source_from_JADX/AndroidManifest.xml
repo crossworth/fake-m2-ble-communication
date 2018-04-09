@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="304" android:versionName="2.0.304.0316" package="com.zhuoyou.plugin.running" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application android:theme="@style/AppTheme_NoActionBar" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.zhuoyou.plugin.running.app.TheApp" android:allowBackup="true" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true">
+        <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="CpND0jgW5ViaKWG0olhxV4yG0VI2gbW1" />
+        <meta-data android:name="zy_channel_id" android:value="running01" />
+        <meta-data android:name="com.droi.sdk.application_id" android:value="nb8umbzhPotmmJ7AR8XzHCzZv5GqWowylQDVDzAA" />
+        <meta-data android:name="com.droi.sdk.platform_key" android:value="vkXKAC6qEVGbv_jI00W8vbg4uBxRBQq8vbg4uBxR" />
+        <meta-data android:name="com.droi.sdk.channel_name" android:value="Droi_Health2_01" />
+        <meta-data android:name="com.droi.sdk.secret_key" android:value="3ugwpd1l" />
+        <meta-data android:name="UMENG_APPKEY" android:value="57528631e0f55ac108002b64" />
+        <meta-data android:name="UMENG_CHANNEL" android:value="running01" />
+        <meta-data android:name="ADROI_SDK_APP_ID" android:value="a45e5baf3" />
+        <activity android:theme="@style/Theme_UMDefault" android:name="com.umeng.socialize.editorpage.ShareActivity" android:excludeFromRecents="true" />
+        <activity android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <service android:name="com.sina.weibo.sdk.net.DownloadService" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.zhuoyou.plugin.running.wxapi.WXEntryActivity" android:exported="true" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme_Splash" android:name="com.zhuoyou.plugin.running.activity.SplashActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme_MainActivity" android:name="com.zhuoyou.plugin.running.activity.MainActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.GPSFirstActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.GPSRunActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.GPSHistoryActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.GPSDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.GPSShareActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_AddHeart" android:name="com.zhuoyou.plugin.running.activity.HeartAddActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_AddHeart" android:name="com.zhuoyou.plugin.running.activity.HeartDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.HeartHintActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.SportOneActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.SportTargetActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.SportHistoryActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.SleepHistoryActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.SleepOneActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.WeightActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AppSettingActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.DeviceMoreActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.DeviceAddActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.DeviceMineActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.DeviceSettingActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.UserInfoActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.FeedbackActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AboutActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.HelpActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_Dialog" android:name="com.zhuoyou.plugin.running.activity.PermissionActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.CropPictureActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AccountLoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateVisible|stateAlwaysVisible" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AccountRegisterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateVisible|stateAlwaysVisible" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AlarmActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AlarmSettingActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.SedentaryActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AccountActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AccountEditPwdActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AccountPhoneActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AccountEmailActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.PedTestActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.TrainDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.FirmwareUpdateActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.GuideActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.PushMessageActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.AaronLiModelActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.M2UiDisplaySetting" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.WristBrightScreenActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.SedentaryReminderM2Activity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.SetPhotoActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.WaterReminderActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.WaterIntakeInfoActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_Dialog" android:name="com.zhuoyou.plugin.running.activity.WaterAlarmDialogActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.VCTestActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.VCTestStartActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.CheckUMengActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.FishGameActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.ShareActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.QQHealthActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.QQBandActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_RemoteCamera" android:name="com.droi.btlib.plugin.RemoteCamera" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.TopicActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustResize|adjustNothing" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.StepActivityActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.CommentActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustResize|adjustNothing" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.SportsReportActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zhuoyou.plugin.running.activity.WXGuideActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_Feedback" android:name="com.droi.sdk.feedback.DroiFeedbackActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.tencent.tauth.AuthActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="1102927580" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" android:name="com.umeng.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
+        <provider android:name="com.umeng.facebook.FacebookContentProvider" android:exported="true" android:authorities="com.facebook.app.FacebookContentProvider217669231992350" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" android:name="com.umeng.socialize.handler.TwitterWebActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
+        <service android:name="com.baidu.location.f" android:permission="1000" android:enabled="true" android:process=":remote">
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" />
+            </intent-filter>
+        </service>
+        <service android:name="com.zhuoyou.plugin.running.service.GPSRunService" />
+        <service android:name="com.droi.pedometer.sdk.PedometerService" />
+        <receiver android:name="com.zhuoyou.plugin.running.receiver.AlarmReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="com.droi.droihealth.ACTION.RUN_TASK" />
+                <action android:name="com.droi.droihealth.ACTION.WATER_ALARM" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.adroi.sdk.AppActivity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.adroi.sdk.AdroiReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.zhuoyou.plugin.running.service.NotificationServiceNew" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <service android:name="com.droi.btlib.service.BtManagerService" />
+        <service android:name="com.droi.btlib.service.BootstrapService" />
+        <activity android:theme="@style/sys_dialog" android:name="com.droi.btlib.plugin.FindPhoneDialog" />
+        <service android:name="no.nordicsemi.android.dfu.DfuBaseService" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.droi.sdk.selfupdate.DroiUpdateDialogActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <receiver android:name="com.droi.sdk.selfupdate.NotificationClickReceiver" />
+        <service android:name="com.droi.sdk.push.DroiPushService" android:exported="true" android:process=":pushservice">
+            <meta-data android:name="SERVICE_VERSION" android:value="1.0.003" />
+            <intent-filter>
+                <action android:name="com.droi.sdk.push.action.START" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.droi.sdk.push.TickAlarmReceiver" />
+        <receiver android:name="com.droi.sdk.push.DroiPushReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.USER_CLEARNOTIFY" />
+                <action android:name="com.droi.sdk.push.action.DATA" />
+                <action android:name="com.zhuoyou.plugin.running.Action.START" />
+                <action android:name="com.droi.sdk.push.action.REMOVE_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/droi_dialog_activity_style" android:label="@string/app_name" android:name="com.droi.sdk.push.DroiPushActivity" android:exported="true" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.droi.sdk.push.action.SHOW_DETAIL" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

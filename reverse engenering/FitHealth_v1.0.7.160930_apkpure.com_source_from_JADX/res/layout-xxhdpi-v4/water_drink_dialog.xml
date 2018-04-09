@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="match_parent">
+    <TextView android:textSize="15sp" android:textColor="@color/black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/notify_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="8dp" android:text="@string/water_warn_timeup" />
+    <Button android:textSize="15sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/confirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/water_warn_confirm" />
+</LinearLayout>

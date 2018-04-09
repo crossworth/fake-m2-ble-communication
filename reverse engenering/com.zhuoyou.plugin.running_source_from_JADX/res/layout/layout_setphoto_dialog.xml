@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_style_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@id/tv_title" style="@style/BottomDialogTitleText" />
+    <View style="@style/DividerView" />
+    <TextView android:id="@+id/btn_take_photo" android:text="@string/userinfo_take_photo" style="@style/DialogItemTextView" />
+    <View style="@style/DividerView" />
+    <TextView android:id="@+id/btn_choose_photo" android:text="@string/userinfo_choose_photo" style="@style/DialogItemTextView" />
+    <View style="@style/DividerView" />
+    <TextView android:id="@+id/btn_cancel" android:text="@string/userinfo_cancel" style="@style/DialogItemTextView" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/zy_notify_bg_1" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@id/zy_iv_notify_icon" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/zy_notify_bg_2" android:paddingLeft="15dp" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:textColor="@color/zy_white" android:id="@id/zy_tv_notify_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" />
+        <TextView android:textSize="14sp" android:textColor="@color/zy_black" android:id="@id/zy_tv_notify_msg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/zy_download_finish" />
+        <RelativeLayout android:id="@id/zy_rl_download_notify_pb" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/zy_pb_download" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1201" android:max="100" android:progress="0" android:progressDrawable="@drawable/zy_progressbar_green" style="?unknown_attr_ref: 1010078" />
+            <TextView android:textSize="13sp" android:textColor="@color/zy_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zy_downloading" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
