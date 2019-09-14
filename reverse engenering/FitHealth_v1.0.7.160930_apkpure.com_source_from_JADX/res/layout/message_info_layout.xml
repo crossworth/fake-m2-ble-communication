@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <include android:id="@+id/running_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" layout="@layout/running_actionbar" />
-    <TextView android:id="@+id/content" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
-</LinearLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" myactionbar:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" myactionbar:orientation="vertical" myactionbar:layout_width="match_parent" myactionbar:layout_height="match_parent">
-    <com.zhuoyou.plugin.running.view.MyActionBar myactionbar:id="@+id/actionbar" myactionbar:custom_back_title="@string/actionbar_title_bind_phone" style="@style/DefaultActionBar" />
-    <AutoCompleteTextView myactionbar:id="@+id/et_phone" myactionbar:hint="@string/account_input_phone" myactionbar:imeOptions="actionGo|actionSearch|actionDone|actionPrevious" myactionbar:imeActionLabel="@string/string_ok" myactionbar:imeActionId="@+id/ok" style="@style/AccountPhoneEditText" />
-    <TextView myactionbar:id="@id/btn_ok" myactionbar:layout_marginTop="34dp" myactionbar:text="@string/string_ok" myactionbar:onClick="onClick" style="@style/AccountButton" />
-    <AutoCompleteTextView myactionbar:id="@+id/et_code" myactionbar:hint="输入验证码" myactionbar:imeOptions="actionGo|actionSearch|actionDone|actionPrevious" myactionbar:imeActionLabel="@string/string_ok" myactionbar:imeActionId="@+id/ok" style="@style/AccountPhoneEditText" />
-    <TextView myactionbar:id="@+id/btn_code_ok" myactionbar:layout_marginTop="34dp" myactionbar:text="@string/string_ok" myactionbar:onClick="onClick" style="@style/AccountButton" />
-</LinearLayout>

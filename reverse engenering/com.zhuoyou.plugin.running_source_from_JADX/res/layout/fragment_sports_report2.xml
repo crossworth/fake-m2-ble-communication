@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background_color_main" android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView android:layout_marginTop="@dimen/sport_report_title_top_margin" android:text="@string/sport_report_range" style="@style/SportsReportTitleText" />
-    <lecho.lib.hellocharts.view.PieChartView android:id="@+id/chart_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xfa01" android:layout_marginTop="130dp" />
-    <GridView android:id="@+id/grid_view" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp" android:numColumns="UNKNOWN_DATA_0x2" android:layout_below="@+id/chart_view" />
-</RelativeLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:background="#2a2a2a" wheel:layout_width="match_parent" wheel:layout_height="match_parent">
-    <com.zhuoyou.plugin.running.view.MyActionBar wheel:id="@+id/actionbar" wheel:background="#80000000" wheel:layout_width="match_parent" wheel:layout_height="wrap_content" wheel:custom_back_title="@string/actionbar_title_set_photo" wheel:custom_right_title="@string/actionbar_title_edit_phont" />
-    <ImageView wheel:id="@+id/img_photo" wheel:layout_width="UNKNOWN_DATA_0x12c01" wheel:layout_height="UNKNOWN_DATA_0x12c01" wheel:src="@drawable/default_photo" wheel:scaleType="fitCenter" wheel:layout_centerInParent="true" />
-    <com.zhuoyou.plugin.running.view.ProgressWheel wheel:id="@+id/progress_wheel" wheel:visibility="gone" wheel:layout_width="UNKNOWN_DATA_0x3201" wheel:layout_height="UNKNOWN_DATA_0x3201" wheel:layout_centerInParent="true" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@color/background_color_main" wheel:matProg_barWidth="2dp" />
-</RelativeLayout>

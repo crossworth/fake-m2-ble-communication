@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/layout1" android:layout_width="match_parent" android:layout_height="match_parent">
-    <LinearLayout android:orientation="horizontal" android:id="@+id/layout2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="17dp" android:layout_marginRight="17dp" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true">
-        <Button android:textSize="18sp" android:textColor="#ffffff" android:id="@+id/login" android:background="@drawable/botton_selector" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="@string/login" android:layout_weight="1.0" />
-        <Button android:textSize="18sp" android:textColor="@color/orange_color" android:id="@+id/skip" android:background="@drawable/skip_botton_seletor" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginLeft="17dp" android:text="@string/skip" android:layout_weight="1.0" />
-    </LinearLayout>
-</RelativeLayout>

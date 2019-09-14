@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/hint_page_dialog_back" android:layout_width="match_parent" android:layout_height="match_parent">
-    <android.support.v4.view.ViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
-    <ImageView android:id="@+id/btn_close" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a0050" android:layout_marginTop="@dimen/statusbar_height" android:layout_marginRight="@dimen/actionbar_padding_right" android:src="@drawable/ic_close" android:layout_alignParentRight="true" />
-    <FrameLayout android:id="@+id/points_layout" android:paddingBottom="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
-        <LinearLayout android:orientation="horizontal" android:id="@+id/point_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <ImageView android:id="@+id/img_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hint_page_point1" />
-    </FrameLayout>
-</RelativeLayout>

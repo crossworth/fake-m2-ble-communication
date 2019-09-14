@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" myactionbar:orientation="vertical" myactionbar:background="@color/divider_large_color" myactionbar:layout_width="match_parent" myactionbar:layout_height="match_parent">
-    <com.zhuoyou.plugin.running.view.MyActionBar myactionbar:id="@+id/actionbar" myactionbar:back_button_src="@drawable/actionbar_backbutton_selector" myactionbar:custom_right_title="@string/string_ok" style="@style/DefaultActionBar" />
-    <View myactionbar:layout_height="UNKNOWN_DATA_0x1401" style="@style/DividerLargeView" />
-    <View style="@style/DividerView" />
-    <EditText myactionbar:id="@+id/et_value" style="@style/InputDialogEditText" />
-    <View style="@style/DividerView" />
-    <View myactionbar:layout_height="UNKNOWN_DATA_0x1" myactionbar:layout_weight="1.0" style="@style/DividerLargeView" />
-</LinearLayout>

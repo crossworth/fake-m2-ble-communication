@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <raw name="city">res/raw/city.db</raw>
-    <raw name="find_phone">res/raw/find_phone.mp3</raw>
-    <raw name="td">res/raw/td</raw>
-    <raw name="water_voice">res/raw/water_voice.mp3</raw>
-</resources>

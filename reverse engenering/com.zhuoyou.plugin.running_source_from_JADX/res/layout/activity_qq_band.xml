@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@+id/activity_share" app:layout_width="match_parent" app:layout_height="match_parent">
-    <com.zhuoyou.plugin.running.view.MyActionBar app:custom_back_title="@string/qq_health_bind_title" style="@style/DefaultActionBar" />
-    <TextView app:textSize="14sp" app:textColor="#2a2a2a" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="18dp" app:text="@string/qq_health_top_tips" />
-    <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="16dp" app:src="@drawable/qq_health" />
-    <TextView app:paddingLeft="60dp" app:paddingRight="60dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="28dp" app:text="@string/qq_health_bind_tips" />
-    <TextView app:textSize="20sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/bt_qq_band" app:background="@drawable/button" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="5dp" app:text="@string/qq_health_bind_button" app:onClick="onClick" />
-</LinearLayout>

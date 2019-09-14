@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="#f4f3f3" app:layout_width="match_parent" app:layout_height="match_parent">
-    <com.zhuoyou.plugin.running.view.MyActionBar app:id="@+id/actionbar" app:custom_back_title="@string/actionbar_title_mine_device" style="@style/DefaultActionBar" />
-    <TextView app:textSize="12dp" app:textColor="#b5b5b5" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x1e01" app:layout_marginLeft="15dp" app:text="@string/wrist_bright_screen_title" />
-    <RelativeLayout app:background="#ffffff" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4201">
-        <TextView app:textSize="14dp" app:textColor="#2a2a2a" app:id="@+id/wrist_bright_screen_tv" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="24dp" app:text="@string/wrist_bright_screen" app:layout_centerVertical="true" />
-        <CheckBox app:id="@+id/cb_wrist_bright_screen" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:onClick="onClick" style="@style/devcie_checkbox_style" />
-    </RelativeLayout>
-</LinearLayout>

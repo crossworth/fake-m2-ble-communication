@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" wheel:orientation="vertical" wheel:layout_width="match_parent" wheel:layout_height="match_parent">
-    <com.zhuoyou.plugin.running.view.MyActionBar wheel:id="@+id/actionbar" wheel:custom_back_title="@string/actionbar_title_add_device" wheel:custom_right_title="@string/bt_device_rescan" style="@style/DefaultActionBar" />
-    <LinearLayout wheel:gravity="top|bottom|center_vertical|fill_vertical|center|fill" wheel:layout_width="match_parent" wheel:layout_height="UNKNOWN_DATA_0x2801">
-        <TextView wheel:id="@+id/tv_device_count" wheel:layout_width="wrap_content" wheel:layout_height="wrap_content" wheel:layout_marginLeft="20dp" wheel:text="@string/bt_device_count" />
-        <com.zhuoyou.plugin.running.view.ProgressWheel wheel:id="@+id/pb_scanning" wheel:layout_width="UNKNOWN_DATA_0x1201" wheel:layout_height="UNKNOWN_DATA_0x1201" wheel:layout_marginLeft="10dp" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@color/background_color_main" wheel:matProg_barWidth="2dp" />
-    </LinearLayout>
-    <ListView wheel:id="@+id/lv_devices" wheel:layout_height="match_parent" style="@style/DefaultListView" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="UNKNOWN_DATA_0x7f0a000b" app:layout_height="UNKNOWN_DATA_0x7f0a000b">
-    <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/health_center_vital_capacity_base" app:scaleType="fitCenter" app:layout_centerInParent="true" />
-    <com.zhuoyou.plugin.running.view.ArcView app:id="@+id/arc_value" app:layout_width="UNKNOWN_DATA_0x7f0a000a" app:layout_height="UNKNOWN_DATA_0x7f0a000a" app:layout_centerInParent="true" app:arc_stoke_width="6dp" app:arc_offset_angel="120" app:arc_color_back="#d9e8f2" app:arc_color_value="#4cdc24" />
-    <TextView app:textSize="50dp" app:textColor="#ffffff" app:id="@+id/tv_value" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="0" app:layout_centerInParent="true" />
-    <TextView app:textSize="16dp" app:textColor="#ffffff" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="6dp" app:layout_marginTop="180dp" app:text="ml" app:layout_toRightOf="@+id/tv_value" />
-</RelativeLayout>

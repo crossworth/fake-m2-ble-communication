@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <Button android:textSize="14sp" android:textColor="#000000" android:id="@+id/umeng_socialize_alert_button" android:background="@drawable/umeng_socialize_button_white_blue" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginTop="5dp" />
-</RelativeLayout>

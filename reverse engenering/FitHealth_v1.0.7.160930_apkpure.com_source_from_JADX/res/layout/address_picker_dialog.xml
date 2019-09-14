@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="match_parent">
-    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-        <TextView android:id="@id/tv_title" android:text="@string/dialog_title_address_picker" style="@style/DialogTitleText" />
-        <TextView android:id="@id/btn_ok" android:text="@string/pickerview_submit" style="@style/DialogOKText" />
-    </RelativeLayout>
-    <com.droi.library.pickerviews.picker.AddressPickerView android:id="@id/address_picker_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
-</LinearLayout>

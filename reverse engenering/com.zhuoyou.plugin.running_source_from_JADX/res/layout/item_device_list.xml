@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/setting_item_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4601">
-    <ImageView android:id="@+id/device_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:src="@drawable/ic_equipment" />
-    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_weight="1.0">
-        <TextView android:textSize="18dp" android:textColor="#3c3c3c" android:id="@+id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LUNA 6" />
-        <TextView android:textSize="14dp" android:textColor="#828282" android:id="@+id/device_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="运动手环" />
-    </LinearLayout>
-    <ImageView android:id="@+id/device_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:src="@drawable/bt_rssi_good" />
-</LinearLayout>

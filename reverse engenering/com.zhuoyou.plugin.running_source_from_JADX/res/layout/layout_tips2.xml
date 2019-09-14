@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#b3000000" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ImageView android:id="@+id/img_anim" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="58dp" android:src="@drawable/tips_anim2" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tips_text2" android:layout_below="@+id/img_anim" android:layout_centerHorizontal="true" />
-    <ImageView android:id="@+id/btn_known" android:paddingBottom="58dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tips_button_selector" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
-</RelativeLayout>

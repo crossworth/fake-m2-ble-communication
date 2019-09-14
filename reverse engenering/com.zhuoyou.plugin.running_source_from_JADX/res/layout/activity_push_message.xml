@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/divider_large_color" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.zhuoyou.plugin.running.view.MyActionBar android:id="@+id/actionbar" android:custom_back_title="@string/push_message_title" style="@style/DefaultActionBar" />
-    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/rl_push_message" android:background="@color/divider_large_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a007f">
-        <TextView android:textSize="12dp" android:id="@+id/tv_select_app" android:paddingLeft="@dimen/push_message_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/push_message_select_app" />
-        <TextView android:textSize="12dp" android:textColor="#0ea3fe" android:id="@+id/tv_all_select" android:paddingRight="@dimen/push_message_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/push_message_select_all" android:onClick="onClick" android:layout_alignParentEnd="true" />
-    </RelativeLayout>
-    <ListView android:id="@+id/lv_app_list" android:divider="@drawable/push_list_divider" style="@style/DefaultListView" />
-</LinearLayout>

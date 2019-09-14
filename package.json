@@ -1,15 +1,29 @@
 {
-  "name": "pulseira",
+  "name": "smartband",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "app.ts",
   "dependencies": {
-    "noble": "^1.9.1"
+    "@types/lodash": "^4.14.108",
+    "@types/noble": "0.0.35",
+    "@types/node": "^9.6.4",
+    "lodash": "^4.17.10",
+    "noble": "^1.9.1",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node ./app.ts"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/system-pedrohenrique/pulseira.git"
+  },
+  "author": "Pedro Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/system-pedrohenrique/pulseira/issues"
+  },
+  "homepage": "https://gitlab.com/system-pedrohenrique/pulseira#README"
 }
